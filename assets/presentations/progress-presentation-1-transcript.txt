@@ -1,0 +1,250 @@
+=== SLIDE 1 ===
+‹1›
+5/7/2026
+Green DevOps - Energy efficient 
+CI/CD Pipieline 
+R26-SE-027
+Sri Lanka Institute of Information Technology 
+MEDIA: [{"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image4.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 2 ===
+COMMENTS FOR PROPOSAL
+R26-SE-027
+5/7/2026
+MEDIA: [{"target": "../embeddings/oleObject1.bin", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/oleObject"}, {"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image6.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image7.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image8.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image12.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 3 ===
+CURRENT PROGRESS AND NEXT PHASES
+R26-SE-027
+5/7/2026
+MEDIA: [{"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image6.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image13.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../embeddings/oleObject2.bin", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/oleObject"}]
+NOTES: 
+
+=== SLIDE 4 ===
+ICT sector produces 2–4% 
+of global CO₂ emissions.
+Carbon Footprint
+WHY OUR SOLUTION IS VALUABLE
+R26-SE-027
+5/7/2026
+The Real-World Problem 
+Rapid growth of cloud-native systems and CI/CD pipelines creates green debt.
+DevOps pipelines prioritize speed over energy efficiency.
+Small code changes trigger full builds and tests.
+This causes resource waste, high energy usage, and increased carbon emissions. 
+About 90% CPU time wasted during full rebuilds.
+Resource Waste
+ 35% 
+annual increase in cloud costs.
+Economic Impact
+climate change 
+extreme weather
+health risks 
+rising sea levels 
+and damage to ecosystems  
+Carbon emissions impact the whole society through 
+MEDIA: [{"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image6.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 5 ===
+
+MEDIA: [{"target": "../media/image14.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 6 ===
+R26-SE-027
+5/7/2026
+High-level Architecture Diagram
+MEDIA: [{"target": "../media/image9.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image15.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 7 ===
+IT22110084  |   Mendis J.D.L   |   R26-SE-027
+IT22110084  |  Mendis J.D.L.
+Release stage Component
+5/8/2026
+Specialization: Software Engineering
+MEDIA: [{"target": "../media/image16.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 8 ===
+Release stage Component
+Traditional pipelines typically perform
+Full system builds for every commit
+Execution of the entire test suite
+Builds unaware of green energy.
+High computational overhead
+Increased energy consumption
+Higher carbon emissions from cloud infrastructure
+Leads to
+Problem in Traditional CI/CD
+Proposed Solution : 
+Plugin which
+performs Impact analysis of commits
+performs Selective builds and test execution
+Suggests build times and regions aware of green energy
+IT22110084  |   Mendis J.D.L   |   R26-SE-027
+5/10/2026
+MEDIA: [{"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image6.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 9 ===
+IT22110084  |   Mendis J.D.L   |   R26-SE-027
+‹7›
+5/10/2026
+Release stage Component
+How the solution will address the problem
+MEDIA: [{"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image6.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image17.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 10 ===
+  Jenkins-based release pipeline
+Methodology: CI/CD pipeline automation
+Technologies: Jenkins Pipeline, Groovy, Maven, GitHub
+  Impact Analyzer for changed Maven module detection
+Methodology: change impact analysis and selective release optimization
+Technologies: Git diff, Python build optimizer, Maven multi-module project structure
+   Selective build and test execution
+Methodology: incremental build and test reduction
+Technologies: Maven -pl, Maven -am, Surefire test reports, Jenkins stages
+   Release metrics sent to GreenDevOps dashboard
+Methodology: CI/CD observability and measurement
+Technologies: REST API, JSON payloads, Flask dashboard, SQLite database
+Release stage Component
+What I implemented
+MEDIA: [{"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image6.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image18.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image19.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image20.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 11 ===
+IT22149930   |   Rathnayake D.M.B.H.   |   R26-SE-027
+Deploy Stage Component
+IT22149930 | Rathnayake D.M.B.H.
+Specialization: Software Engineering
+5/7/2026
+MEDIA: [{"target": "../media/image9.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image21.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 12 ===
+Deploy Stage Component
+Problem
+IT22149930   |   Rathnayake D.M.B.H.   |   R26-SE-027
+5/7/2026
+MEDIA: [{"target": "../media/image9.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image22.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image23.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image24.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image25.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 13 ===
+IT22149930   |   Rathnayake D.M.B.H.   |   R26-SE-027
+Deploy Stage Component
+How the Solution will address the Problem 
+5/7/2026
+MEDIA: [{"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image6.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image26.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 14 ===
+IT22149930   |   Rathnayake D.M.B.H.   |   R26-SE-027
+‹11›
+Deploy Stage Component
+Every deployment burns energy. Nobody is tracking the carbon cost.
+profiler.py                         —   Measures CPU & memory
+energy_calculator.py    —   Converts usage to kWh
+carbon_api.py                 —   Fetches live grid intensity
+carbon_calculator.py   —   Turns kWh into CO₂
+db_sync.py                       —   Saves everything to database
+I built a system that watches a deployment happen, measures how hard the server works, and converts that into a real CO₂ number.
+5/7/2026
+MEDIA: [{"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image22.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image23.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image27.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 15 ===
+IT22281432   |   M.P.M Thassara 
+Operation Stage Component
+17/03/2026
+IT22281432   |   M.P.M Thassara   |   R26-SE-027
+Specialization: Software Engineering
+MEDIA: [{"target": "../media/image28.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image29.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 16 ===
+IT22281432   |   M.P.M Thassara   |   R26-SE-027
+Sub-Problem
+•Traditional DevOps scaling is reactive
+•No consideration of Energy consumption and Carbon emissions
+•Leads to:
+Resource wastage
+High operational cost
+Environmental impact
+Operation Stage Component
+User Requirements Addressed
+Efficient resource utilization
+Reduced cloud cost
+Lower carbon emissions
+Maintain SLA performance
+Smart autoscaling decisions
+Proposed Solution
+AI Workload Prediction Engine
+Carbon Optimization Engine
+Job Prioritization Engine
+5/7/2026
+MEDIA: [{"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image30.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 17 ===
+IT22281432   |   M.P.M Thassara   |   R26-SE-027
+Operation Stage Component
+Tool And Tecnology
+Proposed System Architecture
+5/7/2026
+MEDIA: [{"target": "../media/image36.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image37.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image38.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image31.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image32.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image33.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image34.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image35.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 18 ===
+IT22189776  |   Kodithuwakku I.P.   |   R26-SE-027
+IT22189776  |  Kodithuwakku I.P.
+Monitor stage Component
+5/8/2026
+Specialization: Software Engineering
+MEDIA: [{"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image39.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 19 ===
+Monitor Stage Component
+5/7/2026
+IT22189776  |   Kodithuwakku I.P.   |   R26-SE-027
+Leads to
+Problem
+Traditional CI/CD pipelines focus on speed and automation but do not provide visibility into their environmental impact.
+Unmeasured energy consumption
+Hidden carbon emissions
+Difficulty identifying abnormal behavior
+Lack of data-driven sustainability insights
+Proposed Solution
+Develop a Sustainability Framework that:
+Monitors  stages Individually
+Estimates energy consumption and carbon emissions
+Detects abnormal behavior 
+Generates insights through the Sustainability Analyst Assistant
+Visualizes historical and stage-level analytics in an interactive dashboard
+MEDIA: [{"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image6.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 20 ===
+Monitor Stage Component
+IT22189776  |   Kodithuwakku I.P.   |   R26-SE-027
+5/7/2026
+‹23›
+How the solution will address the problem
+MEDIA: [{"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image6.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image40.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 21 ===
+THANK YOU
+R26-SE-027
+MEDIA: [{"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image6.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 22 ===
+
+MEDIA: [{"target": "../media/image41.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/VAHEAi8gP4s.mp4", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/video"}, {"target": "../media/VAHEAi8gP4s.mp4", "type": "http://schemas.microsoft.com/office/2007/relationships/media"}]
+NOTES: 

@@ -1,0 +1,467 @@
+=== SLIDE 1 ===
+‹1›
+2/24/2026
+Green DevOps - Energy efficient 
+CI/CD Pipieline 
+R26-SE-027
+Sri Lanka Institute of Information Technology 
+MEDIA: [{"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image3.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 2 ===
+Green DevOps - Energy efficient CI/CD Pipieline 
+R26-SE-027
+‹2›
+The Real-World Problem 
+Rapid growth of cloud-native systems and CI/CD pipelines creates green debt.
+DevOps pipelines prioritize speed over energy efficiency.
+Small code changes trigger full builds and tests.
+This causes resource waste, high energy usage, and increased carbon emissions. [1][2]
+Credible Evidence
+Carbon Footprint: ICT sector produces 2–4% of global CO₂ emissions.[1]
+Resource Waste: About 90% CPU time wasted during full rebuilds.[2]
+Economic Impact: 35% annual increase in cloud costs.[1]
+17/03/2026
+MEDIA: [{"target": "../media/image4.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 3 ===
+‹2›
+R26-SE-027
+17/03/2026
+Why our solution is valuable
+MEDIA: [{"target": "../media/image6.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image7.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../embeddings/oleObject1.bin", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/oleObject"}]
+NOTES: 
+
+=== SLIDE 4 ===
+1. Release Management (Mendis J.D.L. – IT22110084)
+2. Deployment Stage (Rathnayake D.M.B.H. – IT22149930)
+3. Operations Stage (Thassara M.P.M. – IT22281432)
+4. Monitoring Stage (Kodithuwakku I.P. – IT22189776)
+R26-SE-027
+Group Members And their Respective Components
+2/24/2026
+‹4›
+MEDIA: [{"target": "../media/image4.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image5.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 5 ===
+17/03/2026
+IT22110084  |   Mendis J.D.L   |   R26-SE-027
+IT22110084  |  Mendis J.D.L.
+Release stage Component
+Contribution
+Optimize CI/CD releases using change impact analysis
+Reduce redundant builds through artifact reuse and incremental builds
+Enable risk-based selective test execution
+Improve pipeline efficiency and reduce resource usage
+Novelty
+Intelligent release decision layer in CI/CD pipelines
+Integration of change analysis + artifact reuse
+Sustainability-driven release optimization
+‹6›
+MEDIA: [{"target": "../media/image8.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 6 ===
+17/03/2026
+IT22110084  |   Mendis J.D.L   |   R26-SE-027
+Release stage Component
+Traditional pipelines typically perform
+Full system builds for every commit
+Execution of the entire test suite
+Deployment regardless of change scope
+High computational overhead
+Increased energy consumption
+Higher carbon emissions from cloud infrastructure
+Leads to
+Main Objective
+To develop a sustainable release management component that reduces unnecessary computational workload in CI/CD pipelines and enables carbon-aware scheduling of build tasks to minimize energy consumption and environmental impact.
+Problem in Traditional CI/CD
+‹7›
+Sub Objectives
+Reduce Redundant Build Processes 
+Optimize Test Execution 
+Integrate Carbon-Aware Scheduling
+MEDIA: [{"target": "../media/image8.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 7 ===
+17/03/2026
+IT22110084  |   Mendis J.D.L   |   R26-SE-027
+‹8›
+Release stage Component
+Research Methodology
+DevOps pipeline optimization
+Change impact analysis and incremental builds
+Artifact reuse to reduce redundant computation
+Carbon aware scheduling using XGBoost model.
+Technologies Used
+CI/CD Platforms (Jenkins / GitHub Actions)
+Git commit analysis
+Maven / Gradle incremental builds
+Nexus artifact repository
+Docker containerized build environments
+DEPENDENCY_GRAPH = {
+    "common-lib": ["auth-service", "order-service", "payment-service"],
+    "auth-service": [],
+   "order-service": ["checkout-service"],
+   "payment-service": ["checkout-service"],
+    "checkout-service": []
+}
+MEDIA: [{"target": "../media/image18.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image12.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image13.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image14.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image15.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image16.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image17.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 8 ===
+Validation & Evaluation
+Compare optimized pipeline with traditional CI/CD
+Metrics: pipeline execution time, rebuilt modules, CPU usage
+Data, Security & Ethics
+Uses CI/CD pipeline execution data
+No personal or sensitive data processed
+Secure repository and artifact access
+Release stage Component
+MEDIA: [{"target": "../media/image8.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 9 ===
+17/03/2026
+IT22110084  |   Mendis J.D.L   |   R26-SE-027
+‹9›
+Release stage Component
+CI/CD Infrastructure
+Git Repository (GitHub / GitLab) – stores source code and triggers CI/CD pipelines
+CI/CD Orchestrator (Jenkins / GitHub Actions) – manages pipeline execution
+CI Worker Nodes – execute build and test jobs
+Build and Artifact Management
+Build Tools (Maven / Gradle / npm) – compile and package the application
+Artifact Repository (Nexus / Artifactory) – stores generated build artifacts
+Sustainability Dependency
+Carbon Intensity API (e.g., WattTime) – provides carbon intensity data used by the scheduler
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image19.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 10 ===
+17/03/2026
+IT22149930   |   Rathnayake D.M.B.H.   |   R26-SE-027
+Deploy Stage Component
+introducing an energy awareness and AI-driven decision-making into the CI/CD pipeline.
+Novelty of the Solution
+Deployment Energy Profiler - Measure deployment energy usage
+AI-based Green Deployment Decision Engine - Intelligent deployment planning
+Energy-optimized strategy selection
+Contribution 
+IT22149930 | Rathnayake D.M.B.H.
+‹10›
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 11 ===
+17/03/2026
+IT22149930   |   Rathnayake D.M.B.H.   |   R26-SE-027
+‹11›
+Deploy Stage Component
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image8.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image20.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image21.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 12 ===
+IT22149930   |   Rathnayake D.M.B.H.   |   R26-SE-027
+‹12›
+17/03/2026
+Deploy Stage Component
+Proposed Feature
+Research Methodology 
+(Knowledge Domains)
+Green Computing
+DevOps & CI/CD
+Cloud Computing 
+Machine Learning 
+Traditional Pipeline
+[3][1]
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image22.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image23.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 13 ===
+IT22149930   |   Rathnayake D.M.B.H.   |   R26-SE-027
+‹14›
+17/03/2026
+Deploy Stage Component
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image24.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 14 ===
+IT22149930   |   Rathnayake D.M.B.H.   |   R26-SE-027
+‹13›
+Validation & Evaluation
+Compare energy consumption
+Measure carbon emission reduction
+Data, Security & Ethics
+Secure storage in cloud database
+No personal or sensitive user data
+17/03/2026
+Deploy Stage Component
+Tools & Technologies
+Evaluate ML model prediction accuracy
+Test with different deployment strategies
+Azure public dataset
+Deployment logs (during experiment)
+Supervised Learning Algorithm
+MEDIA: [{"target": "../media/image11.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image15.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image28.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image29.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image25.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image26.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image27.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image8.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 15 ===
+IT22281432   |   M.P.M Thassara 
+Individual Contribution​
+Designed a sustainable DevOps operation module.
+Integrated AI-driven workload prediction.
+Implemented carbon-optimized scaling strategy.
+Added energy-aware job prioritization.
+Novelty
+Adds carbon-aware decision making to DevOps operations
+Integrates AI workload prediction with energy-efficient scaling and job prioritization.
+Operation Stage Component
+17/03/2026
+IT22281432   |   M.P.M Thassara   |   R26-SE-027
+‹15›
+MEDIA: [{"target": "../media/image30.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 16 ===
+IT22281432   |   M.P.M Thassara   |   R26-SE-027
+‹16›
+Sub Objectives
+•Predict future workload using AI
+•Optimize scaling decisions based on energy usage
+•Prioritize jobs to reduce unnecessary resource consumption
+Research Objective
+Scaling based only on CPU and memory.
+Energy and carbon impact not considered.
+Causes resource waste and higher environmental impact
+Problem Definition
+•Develop a Green DevOps operation system that optimizes resource usage while reducing carbon emissions.
+Operation Stage Component
+17/03/2026
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image31.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 17 ===
+IT22281432   |   M.P.M Thassara   |   R26-SE-027
+‹17›
+Domain Knowledge
+Uses Green DevOps to reduce cloud carbon emissions
+Uses Kubernetes for intelligent resource management
+Applies AI/ML for workload prediction
+Optimizes energy through sustainable computing
+Methodology 
+Operation Stage Component
+17/03/2026
+Tool And Tecnology
+MEDIA: [{"target": "../media/image15.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image32.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../embeddings/oleObject2.bin", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/oleObject"}, {"target": "../media/image33.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image34.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image35.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image36.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 18 ===
+Validation and Evaluation
+Prediction Accuracy – Predicted vs actual workload
+Carbon Reduction – Energy usage before vs after
+Resource Efficiency – CPU & memory utilization
+Response Time – Performance impact of scaling
+Autoscaling Comparison – vs Kubernetes HPA
+Data Sources
+Kubernetes monitoring data
+Prometheus metrics database
+Simulated workload datasets for testing
+Security
+Secure API communication
+Controlled data access
+Protected cloud environment
+Ethical Considerations
+No personal data used
+Analyzes only system metrics
+Ensures sustainable cloud computing
+Operation Stage Component
+17/03/2026
+IT22281432   |   M.P.M Thassara   |   R26-SE-027
+‹18›
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image8.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image9.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image10.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image11.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 19 ===
+ Kubernetes cluster
+ Monitoring tools (metrics server)
+ AI prediction model
+Cloud Infrastructure (Oracle Cloud)
+IT22281432   |   M.P.M Thassara   |   R26-SE-027
+‹19›
+1.Collect monitoring data (CPU, memory, request load)
+2.Predict future workload using AI
+3.Analyze energy usage and carbon impact
+4.Apply job priority scheduling
+5.Make optimal pod scaling decision in Kubernetes
+System Workflow
+Dependencies
+Operation Stage Component
+17/03/2026
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image37.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 20 ===
+IT22189776 | I.P. Kodithuwakku
+Monitor Stage Component
+Contribution
+Collect CI/CD pipeline execution metrics
+Estimate energy consumption
+Calculate carbon emissions
+Generate sustainability datasets
+Novelty
+Pipeline-level sustainability monitoring
+Energy and carbon estimation integrated into DevOps workflow
+17/03/2026
+IT22189776   |   Kodithuwakku I.P.   |   R26-SE-027
+‹20›
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 21 ===
+   Problem 
+CI/CD pipelines run thousands of automated builds daily
+Current DevOps monitoring tools focus on performance and reliability
+Environmental impact of CI/CD pipelines is not measured
+   Research Gap 
+Lack of pipeline-level energy and carbon monitoring
+  Main objective:
+Develop a sustainability monitoring framework for CI/CD pipelines
+  Sub-objectives:
+Collect pipeline execution metrics
+Estimate energy consumption
+Calculate carbon emissions
+Generate sustainability datasets
+   Novelty:
+ Sustainability-aware monitoring framework 
+Converts pipeline metrics → energy → carbon emissions
+17/03/2026
+IT22189776   |   Kodithuwakku I.P.   |   R26-SE-027
+‹21›
+Monitor Stage Component
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image38.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image39.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image40.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image41.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 22 ===
+IT22189776   |   Kodithuwakku I.P.   |   R26-SE-027
+Why These Technologies?
+Compatible with modern DevOps pipelines
+Lightweight monitoring with minimal overhead
+Real-time carbon estimation
+‹22›
+Research Method
+Design Science Research (DSR)
+Steps:
+Problem Identification
+Artifact Design (Monitoring Framework)
+Implementation
+Evaluation
+Technologies Used
+Python (monitoring scripts)
+psutil library (resource monitoring)
+CI/CD platforms (GitHub Actions / Jenkins)
+ElectricityMaps API (carbon intensity)
+Cloud Infrastructure (OCI)
+Domain
+Software Engineering – DevOps & Sustainable Computing
+Monitor Stage Component
+17/03/2026
+MEDIA: [{"target": "../media/image41.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image42.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image15.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image26.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image43.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image14.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image40.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 23 ===
+IT22189776   |   Kodithuwakku I.P.   |   R26-SE-027
+Validation Strategy
+Run CI/CD pipeline experiments
+Monitor resource usage
+Estimate energy consumption
+Compare pipeline stage energy patterns
+Pipeline Metrics
+Energy Estimation
+Carbon Estimation
+Dataset
+‹23›
+Data Availability
+CI/CD execution logs
+CPU & memory metrics
+Carbon intensity datasets
+Monitor Stage Component
+Evaluation Metrics
+Energy consumption per pipeline stage
+Estimated carbon emissions
+Resource utilization trends
+Monitoring system performance overhead
+Security & Ethics
+No personal or sensitive data collected
+Only system performance metrics
+Uses publicly available datasets
+17/03/2026
+MEDIA: [{"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image40.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image41.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 24 ===
+IT22189776   |   Kodithuwakku I.P.   |   R26-SE-027
+ Monitoring component modules:
+Metric Collection Module
+Energy Estimation Module
+Carbon Estimation Module
+Sustainability Dataset Generator
+Monitor Stage Component
+‹24›
+ Dependencies
+CI/CD pipeline environment
+Cloud infrastructure
+Carbon intensity API
+  Output
+Carbon emission estimates
+Pipeline energy insights
+Sustainability dataset
+17/03/2026
+MEDIA: [{"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image44.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image40.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image41.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 25 ===
+R26-SE-027
+Green DevOps - Energy efficient CI/CD Pipieline 
+2/24/2026
+Ability of Commercialization
+Closes the measurement gap by tracking Software Carbon Intensity (SCI) in DevOps pipelines.
+Uses AI-based workload prediction and carbon-aware scheduling, unlike traditional tools such as
+Target Market
+Cloud-native companies
+Large enterprises using CI/CD pipelines
+Customers
+DevOps / SRE Engineers 
+Sustainability Officers 
+‹24›
+MEDIA: [{"target": "../media/image4.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image45.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../embeddings/oleObject3.bin", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/oleObject"}]
+NOTES: 
+
+=== SLIDE 26 ===
+R26-SE-027
+Green DevOps - Energy efficient CI/CD Pipieline 
+2/24/2026
+‹24›
+MEDIA: [{"target": "../media/image6.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image46.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 27 ===
+R26-SE-027
+Green DevOps - Energy efficient CI/CD Pipieline 
+‹24›
+2/24/2026
+MEDIA: [{"target": "../media/image6.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image2.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image1.jpeg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image47.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../embeddings/oleObject4.bin", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/oleObject"}]
+NOTES: 
+
+=== SLIDE 28 ===
+COMMERCIALIZATION & SUSTAINABILITY
+MEDIA: [{"target": "../media/image48.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}, {"target": "../media/image49.svg", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 
+
+=== SLIDE 29 ===
+Thank You
+MEDIA: [{"target": "../media/image50.png", "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"}]
+NOTES: 

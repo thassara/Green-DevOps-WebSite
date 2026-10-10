@@ -1,0 +1,346 @@
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">01 / Research domain</p>
+    <h1>Sustainability across the software lifecycle.</h1>
+    <p class="lead">The research behind Green DevOps brings selective execution, carbon-aware deployment, predictive operations and sustainability monitoring into one connected framework.</p>
+    <p class="source-note">Final research account: <cite>An Integrated Green DevOps Framework for Sustainable Software Delivery and Operations</cite>, supplied revised manuscript.</p>
+    <a class="button" href="assets/documents/revised-journal.pdf">Read the research manuscript <span aria-hidden="true">↗</span></a>
+    <a class="button button-secondary" href="#components">Explore the four components</a>
+  </div>
+</section>
+
+<div class="container reading-layout">
+  <aside class="section-nav" aria-label="Domain contents">
+    <p class="eyebrow">On this page</p>
+    <nav aria-label="Research sections">
+      <a href="#background">Background</a>
+      <a href="#literature">Literature survey</a>
+      <a href="#problem">Problem &amp; gap</a>
+      <a href="#questions">Research questions</a>
+      <a href="#objectives">Objectives &amp; contribution</a>
+      <a href="#methodology">Methodology</a>
+      <a href="#architecture">System architecture</a>
+      <a href="#components">Research components</a>
+      <a href="#technologies">Technologies used</a>
+      <a href="#evaluation">Evaluation</a>
+      <a href="#findings">Research findings</a>
+      <a href="#limitations">Limitations</a>
+      <a href="#future-work">Future work</a>
+      <a href="#references">References</a>
+    </nav>
+  </aside>
+
+  <article class="reading-content" aria-label="Research domain">
+    <section class="research-section" id="background">
+      <div class="section-heading"><p class="eyebrow">Context</p><h2>Research background</h2></div>
+      <p>Every build, test, deployment and running workload consumes computing resources. Conventional DevOps improves delivery speed and reliability, but these decisions do not routinely account for energy consumption or the changing carbon intensity of electricity.</p>
+      <p>Green DevOps extends this operational perspective to environmental sustainability. The research considers both <strong>how much work is necessary</strong> and <strong>when that work should run</strong>, while retaining delivery, performance and service-level requirements.</p>
+      <p>The project follows four stages because sustainability decisions continue after a successful build: a deployment has its own resource footprint, runtime demand changes, and monitoring is needed to identify regressions and inform the next decision.</p>
+      <p class="source-note">Source: revised manuscript, Introduction and Research Framework Overview. The development of this approach is documented in the <a href="milestones.html">research milestones</a>.</p>
+    </section>
+
+    <section class="research-section" id="literature">
+      <div class="section-heading"><p class="eyebrow">Research foundations</p><h2>Literature survey</h2></div>
+      <p>The journal connects five areas of prior work. Together they establish the methods used by the project and explain why coordination across stages matters.</p>
+      <details class="research-detail" open>
+        <summary>Sustainable software engineering and Green DevOps</summary>
+        <p>The Karlskrona Manifesto treats sustainability as a concern that spans a system and its wider effects. GREENSOFT introduces a lifecycle perspective for green software assessment. Green DevOps and SusDevOps research extend these principles into delivery processes, resource use and organizational decision-making. <a href="#ref-47" aria-label="Reference 47">[47]</a> <a href="#ref-48" aria-label="Reference 48">[48]</a> <a href="#ref-49" aria-label="Reference 49">[49]</a> <a href="#ref-50" aria-label="Reference 50">[50]</a></p>
+        <p><strong>Relevance:</strong> environmental impact becomes an ongoing software engineering consideration, alongside operational quality.</p>
+      </details>
+      <details class="research-detail">
+        <summary>Energy measurement, carbon accounting and observability</summary>
+        <p>Direct hardware measurements are difficult to obtain in virtualized infrastructure. Resource-based energy models provide an alternative, with uncertainty. The Software Carbon Intensity specification and Cloud Carbon Footprint methodology establish approaches to environmental accounting. Monitoring needs historical context as well as current measurements. <a href="#ref-6" aria-label="Reference 6">[6]</a> <a href="#ref-53" aria-label="Reference 53">[53]</a> <a href="#ref-60" aria-label="Reference 60">[60]</a></p>
+        <p><strong>Relevance:</strong> the project estimates energy and carbon from available telemetry, then builds stage-specific sustainability baselines.</p>
+      </details>
+      <details class="research-detail">
+        <summary>Sustainability in CI/CD and selective execution</summary>
+        <p>Regression test selection identifies tests affected by software changes. Related work distinguishes selection, minimization and prioritization; modular build tools support dependency-aware execution. These methods reduce repeated computation, but do not by themselves decide whether the current grid conditions are favorable. <a href="#ref-1" aria-label="Reference 1">[1]</a> <a href="#ref-2" aria-label="Reference 2">[2]</a> <a href="#ref-3" aria-label="Reference 3">[3]</a></p>
+        <p><strong>Relevance:</strong> Release combines change-impact analysis with a separate carbon-intensity decision.</p>
+      </details>
+      <details class="research-detail">
+        <summary>Carbon-aware computing, scheduling and deployment</summary>
+        <p>Carbon-aware computing uses electricity-grid information to guide workload timing or placement. Datacenter scheduling and bounded temporal shifting demonstrate why flexible work can benefit from cleaner execution windows. Deployment research such as FREEDA also considers infrastructure selection across cloud and edge environments. <a href="#ref-4" aria-label="Reference 4">[4]</a> <a href="#ref-5" aria-label="Reference 5">[5]</a> <a href="#ref-25" aria-label="Reference 25">[25]</a></p>
+        <p><strong>Relevance:</strong> the framework considers execution timing and deployment strategy while respecting urgency and reliability requirements.</p>
+      </details>
+      <details class="research-detail">
+        <summary>AI-driven resource management and anomaly detection</summary>
+        <p>Predictive resource management uses workload history to anticipate demand before reactive thresholds are crossed. At the monitoring layer, statistical methods offer interpretable deviations, while Isolation Forest detects unusual combinations of features without requiring labelled training anomalies. Extended Isolation Forest develops this approach further. <a href="#ref-41" aria-label="Reference 41">[41]</a> <a href="#ref-57" aria-label="Reference 57">[57]</a> <a href="#ref-58" aria-label="Reference 58">[58]</a> <a href="#ref-59" aria-label="Reference 59">[59]</a></p>
+        <p><strong>Relevance:</strong> Operation combines forecasts with carbon and priority decisions; Monitoring adds historical and multidimensional analysis.</p>
+      </details>
+      <p class="source-note">Summarized from the revised manuscript’s Related Work. Reference numbers retain the manuscript’s numbering; the full bibliography is available in the source document.</p>
+    </section>
+
+    <section class="research-section" id="problem">
+      <div class="section-heading"><p class="eyebrow">The challenge</p><h2>Research problem</h2></div>
+      <div class="grid-2">
+        <div class="card"><h3>Release</h3><p>Rebuilding and retesting an entire repository for a small change repeats unnecessary work. Build timing also ignores the electricity grid’s changing carbon intensity.</p></div>
+        <div class="card"><h3>Deployment</h3><p>Immediate promotion after build completion can miss lower-carbon windows. Different deployment strategies also create different amounts of overlapping infrastructure.</p></div>
+        <div class="card"><h3>Operation</h3><p>Reactive scaling responds after utilization changes. It generally does not combine future demand, carbon estimates and the urgency of individual jobs.</p></div>
+        <div class="card"><h3>Monitoring</h3><p>Performance observability does not automatically reveal whether an execution is environmentally unusual compared with its own historical baseline.</p></div>
+      </div>
+      <p class="source-note">Source: revised manuscript, Introduction → Problem Statement.</p>
+    </section>
+
+    <section class="research-section" id="gap">
+      <div class="section-heading"><p class="eyebrow">The integration gap</p><h2>Four decisions, one lifecycle</h2></div>
+      <p class="lead">The literature reviewed in the journal largely treats selective execution, carbon-aware timing, predictive scaling and sustainability monitoring as separate concerns.</p>
+      <p>The research gap is their coordination: build decisions need environmental context, deployment decisions need operational constraints, runtime decisions need forecasts and priorities, and subsequent executions need feedback from observed sustainability behavior.</p>
+      <p>The proposed framework connects these mechanisms across Release, Deployment, Operation and Monitoring. Its contribution is the consistent use of sustainability information across the lifecycle, rather than a claim that any individual algorithm is new.</p>
+      <p class="source-note">Source: revised manuscript, Introduction → Research Gap and Novelty Statement; Related Work → Research Gap.</p>
+    </section>
+
+    <section class="research-section" id="questions">
+      <div class="section-heading"><p class="eyebrow">Final research questions</p><h2>What the study asks</h2></div>
+      <ol class="question-list">
+        <li><p><strong>RQ1 — Release</strong></p><p>To what extent can git-diff-based, module-level change-impact analysis, combined with a learned carbon-intensity classifier, reduce both unnecessary build/test execution and the carbon cost of necessary execution in CI/CD pipelines?</p></li>
+        <li><p><strong>RQ2 — Deploy</strong></p><p>How can real-time grid carbon-intensity signals and predictive analytics be incorporated into deployment scheduling to identify low-carbon deployment windows without degrading delivery performance?</p></li>
+        <li><p><strong>RQ3 — Operate</strong></p><p>How accurately can an LSTM-based model predict Kubernetes workload demand, and how can carbon-emission estimation and workload prioritization be integrated into scaling decisions to reduce environmental impact while preserving SLA compliance?</p></li>
+        <li><p><strong>RQ4 — Monitor</strong></p><p>How can sustainability monitoring be extended from measurement alone to historical baseline modelling and anomaly detection, enabling automatic identification of sustainability regressions across the Release, Deploy, and Operate stages?</p></li>
+      </ol>
+      <p class="source-note">Question text reproduced from the revised manuscript, Introduction → Research Questions.</p>
+    </section>
+
+    <section class="research-section" id="objectives">
+      <div class="section-heading"><p class="eyebrow">Research direction</p><h2>Objectives</h2></div>
+      <p class="lead">Develop and evaluate an integrated framework that reduces unnecessary computation and supports carbon-aware decisions while preserving delivery velocity, application performance and SLA requirements.</p>
+      <ol>
+        <li><strong>Release:</strong> develop and empirically benchmark a module-level change-impact mechanism and a carbon-intensity classifier for build/test scheduling.</li>
+        <li><strong>Deployment:</strong> establish fine-grained deployment-stage carbon measurement and use predictive analytics to autonomously identify low-carbon deployment windows.</li>
+        <li><strong>Operation:</strong> integrate LSTM workload forecasting, carbon-emission estimation and workload prioritization into a runtime decision engine for sustainable Kubernetes scaling.</li>
+        <li><strong>Monitoring:</strong> construct historical sustainability baselines and a hybrid anomaly-detection mechanism for regressions across Build, Test and Deploy activity.</li>
+        <li><strong>Integrated evaluation:</strong> assess reductions in unnecessary compute and carbon emissions across the lifecycle while preserving operational requirements, including potential cost and performance benefits.</li>
+      </ol>
+      <p class="source-note">Adapted for readability from the five objectives in the revised manuscript. These are research objectives; the scope of completed experiments is detailed under <a href="#evaluation">Evaluation</a>.</p>
+    </section>
+
+    <section class="research-section" id="contribution">
+      <div class="section-heading"><p class="eyebrow">Novelty and contribution</p><h2>A connected decision framework</h2></div>
+      <p>The framework connects four complementary mechanisms: an empirically benchmarked selective CI engine and carbon classifier; deployment-stage measurement and scheduling; predictive Kubernetes decision support with workload priorities; and historical sustainability analysis with anomaly detection.</p>
+      <p>Monitoring closes the loop by returning carbon-efficiency assessments, anomaly reports and a Sustainability Health Score to earlier decisions. This makes the integrated architecture the central research contribution.</p>
+      <p class="source-note">Source: revised manuscript, Research Contributions and Sustainability Feedback Loop.</p>
+    </section>
+
+    <section class="research-section" id="methodology">
+      <div class="section-heading"><p class="eyebrow">Proposed solution</p><h2>Methodology</h2></div>
+      <p>The method combines deterministic change analysis, learned predictions, software-based carbon estimation and constrained decision support. Each stage consumes information from the previous stages and produces evidence for monitoring.</p>
+      <ol>
+        <li><strong>Collect the relevant inputs.</strong> Source diffs, module dependencies, deployment telemetry, runtime history, workload urgency and grid carbon-intensity information establish the decision context.</li>
+        <li><strong>Reduce unnecessary execution.</strong> Identify affected Maven modules, select build/test work and classify carbon conditions before scheduling eligible Release tasks.</li>
+        <li><strong>Coordinate deployment.</strong> Estimate deployment energy and emissions, then evaluate execution windows and Recreate, Rolling or Canary strategies against operating requirements.</li>
+        <li><strong>Anticipate runtime demand.</strong> Feed historical telemetry into an LSTM; combine its forecast with carbon estimates and job priorities to recommend a scaling or delay action.</li>
+        <li><strong>Learn from observed behavior.</strong> Store stage-level measurements, establish historical baselines, flag anomalies and return sustainability assessments to future decisions.</li>
+        <li><strong>Evaluate component evidence.</strong> Use time-series validation, paired Jenkins benchmarks, unseen workload traces and historical monitoring records. Keep measured outcomes separate from proposed operational benefits.</li>
+      </ol>
+      <p class="note"><strong>Carbon accounting:</strong> energy is estimated from resource utilization. Carbon calculations combine estimated energy, regional carbon intensity and infrastructure overhead such as Power Usage Effectiveness. These are model-based estimates, with uncertainty; they are not direct hardware power measurements.</p>
+      <p class="source-note">Source: revised manuscript, Methodology; Implementation; Results and Evaluation.</p>
+    </section>
+
+    <section class="research-section" id="architecture">
+      <div class="section-heading"><p class="eyebrow">System architecture</p><h2>From source change to sustainability feedback</h2></div>
+      <p>The conceptual architecture below follows the final manuscript’s methodology and implementation. Each stage retains its own decision role while sharing sustainability information.</p>
+      <figure class="architecture">
+        <div class="stage-grid">
+          <div class="stage"><p class="eyebrow">01 / Release</p><h3>Select &amp; schedule</h3><p>Git diff → affected Maven modules → selective build/test → carbon-aware timing.</p><p class="muted">Output: artifacts, build metadata and sustainability information.</p></div>
+          <div class="stage"><p class="eyebrow">02 / Deployment</p><h3>Estimate &amp; orchestrate</h3><p>Telemetry + grid intensity → ReAct decision support → strategy and execution window.</p><p class="muted">Output: deployment profiles, carbon estimates and recommendations.</p></div>
+          <div class="stage"><p class="eyebrow">03 / Operation</p><h3>Predict &amp; prioritize</h3><p>LSTM demand forecast + carbon estimate + job priority → runtime recommendation.</p><p class="muted">Output: scaling decisions and workload classifications.</p></div>
+          <div class="stage"><p class="eyebrow">04 / Monitoring</p><h3>Assess &amp; inform</h3><p>Historical records → stage baselines → statistical and Isolation Forest analysis.</p><p class="muted">Output: anomalies, sustainability assessments and SHS.</p></div>
+        </div>
+        <div class="feedback"><strong>Feedback to Release, Deployment and Operation</strong><p>Historical sustainability intelligence informs subsequent build timing, deployment windows, scaling policies and workload priorities.</p></div>
+        <figcaption>Conceptual reconstruction from the revised manuscript’s final methodology. Shared context includes grid carbon signals, operational telemetry and historical sustainability records.</figcaption>
+      </figure>
+      <p>Implementation is described on an Oracle cloud VM running Ubuntu and K3s, with Jenkins coordinating the lifecycle. Electricity Maps and WattTime provide named carbon-signal sources; historical heuristic fallbacks support operation when external data is unavailable.</p>
+      <p class="source-note">The manuscript’s embedded overview retains an earlier XGBoost deployment label. This diagram follows the final ReAct description. Earlier architectures remain part of the <a href="milestones.html">research journey</a>.</p>
+    </section>
+
+    <section class="research-section" id="components">
+      <div class="section-heading"><p class="eyebrow">Four research components</p><h2>How each stage contributes</h2></div>
+      <p>Each component addresses a distinct source of inefficiency. Their methods and evidence are presented separately so that implementation capabilities can be distinguished from experimentally measured results.</p>
+      <div class="tag-list" aria-label="Component links"><a href="#release">01 Release</a><a href="#deployment">02 Deployment</a><a href="#operation">03 Operation</a><a href="#monitoring">04 Monitoring</a></div>
+    </section>
+
+    <section class="research-section" id="release">
+      <div class="section-heading"><p class="eyebrow">Component 01</p><h2>Release management</h2></div>
+      <p class="lead">Avoid unnecessary work, then consider the carbon conditions for work that remains.</p>
+      <p><strong>Problem and objective.</strong> Whole-repository execution repeats computation for changes affecting only a small part of the project. Release aims to reduce that scope and support lower-carbon timing for suitable builds.</p>
+      <h3>Approach and implementation</h3>
+      <p>A Python package runs from a Jenkins shell step or GitHub Actions workflow. It maps changed files to their Maven modules using longest-prefix matching and expands the selected set through Maven’s <code>-am</code> reactor behavior. Documentation-only changes can bypass execution; shared dependencies and global build configuration trigger broader validation.</p>
+      <p>A LightGBM classifier uses 39 temporal features, including lag and rolling-window statistics, to classify carbon conditions. During high-carbon conditions, a Prophet forecaster searches for a cleaner hour within a maximum eight-hour delay. Eligible non-urgent builds shift when a better window exists; otherwise they proceed.</p>
+      <details class="research-detail">
+        <summary>Method details and evaluation evidence</summary>
+        <p>The supplied configuration compares <code>HEAD~1</code> with <code>HEAD</code>, includes a shared <code>common-lib</code> module, and treats root Maven configuration as global triggers. Its example carbon provider is configured as a mock; this example should not be read as proof that every experiment used a live grid API.</p>
+        <p>Five-fold time-series cross-validation produced LightGBM macro F1 <strong>0.9787</strong> and approximately <strong>98% recall</strong>. Lag and rolling features contributed approximately <strong>96.2%</strong> of SHAP feature importance. The supplementary Prophet model had approximately <strong>51% MAPE</strong>, indicating that the forecasting layer needs refinement.</p>
+        <p>Ten paired optimized and unoptimized Jenkins runs on identical commits showed <strong>47.7% mean wall-clock reduction</strong> and <strong>90.4% of possible tests skipped</strong>. These are execution-efficiency results, not a measured carbon-reduction percentage.</p>
+      </details>
+      <p><strong>Integration.</strong> Release passes optimized artifacts, build metadata and sustainability information to Deployment. Monitoring feedback can inform subsequent scheduling decisions.</p>
+      <p class="source-note">Source: revised manuscript, Release Phase Methodology; Release Stage Implementation; CI/CD Optimization Performance. Algorithms: <a href="#ref-9">LightGBM [9]</a>, <a href="#ref-13">Prophet [13]</a>.</p>
+    </section>
+
+    <section class="research-section" id="deployment">
+      <div class="section-heading"><p class="eyebrow">Component 02</p><h2>Carbon-aware deployment</h2></div>
+      <p class="lead">Consider deployment timing, infrastructure overlap and reliability together.</p>
+      <p><strong>Problem and objective.</strong> A deployment scheduled immediately after a build may run during carbon-intensive periods. This component establishes fine-grained energy and carbon estimates and uses them to inform deployment windows and strategy choices.</p>
+      <h3>Approach and implementation</h3>
+      <p>Deployment CPU, memory and network telemetry supports software-based energy estimation. Grid carbon-intensity signals provide environmental context. The final implementation describes a <strong>ReAct</strong> agent—reasoning and acting—whose decision logic is framed as a Markov Decision Process.</p>
+      <p>The agent considers current grid conditions, system load and historical strategy performance when choosing among <strong>Recreate, Rolling and Canary</strong> updates. These strategies have different resource-overlap and availability implications. Kubernetes Node Affinity, Taints and Tolerations provide placement mechanisms.</p>
+      <details class="research-detail">
+        <summary>Strategy reasoning and evaluation scope</summary>
+        <p>The manuscript describes Canary as an option for limiting initial load spikes and Recreate for suitable low-carbon maintenance windows. These are context-dependent decisions: infrastructure efficiency is considered alongside operational stability and release requirements.</p>
+        <p>The component is described within the integrated implementation, and Deploy records form part of the monitoring experiment. The final Results section does <strong>not</strong> report a separate deployment benchmark, numerical emissions saving or quantified delivery-performance comparison.</p>
+      </details>
+      <p><strong>Integration.</strong> Deployment consumes successful Release outputs and passes deployment profiles, carbon estimates and optimization recommendations to Operation.</p>
+      <p class="source-note">Source: revised manuscript, Deployment Phase Methodology and Deployment Stage Implementation. ReAct foundation: <a href="#ref-29">[29]</a>.</p>
+    </section>
+
+    <section class="research-section" id="operation">
+      <div class="section-heading"><p class="eyebrow">Component 03</p><h2>Predictive operation</h2></div>
+      <p class="lead">Anticipate demand and account for which jobs can wait.</p>
+      <p><strong>Problem and objective.</strong> Reactive scaling responds after workload changes. Operation combines predicted demand, carbon estimates and workload urgency to support proactive Kubernetes decisions under SLA constraints.</p>
+      <h3>Approach and implementation</h3>
+      <p>An LSTM processes historical runtime metrics such as CPU utilization, memory, request rates and active pods. The architecture uses a sequence of 12 observations sampled every 30 seconds—a six-minute history—to predict the next 30 seconds.</p>
+      <p>The <strong>Carbon Estimation Engine</strong> assesses candidate actions. The <strong>Job Priority Engine</strong> separates immediate, SLA-sensitive work from delayable background work. High-priority jobs run immediately; medium-priority work can wait only where service quality permits; low-priority batch or maintenance tasks can move to cleaner periods.</p>
+      <p>The <strong>Runtime Decision Engine</strong> combines these inputs to recommend <em>Scale Up, Scale Down, Maintain</em> or <em>Delay Jobs</em>.</p>
+      <figure>
+        <a href="assets/diagrams/lstm-architecture.webp" aria-label="Open full-size LSTM workload prediction architecture"><img src="assets/diagrams/lstm-architecture.webp" width="1430" height="814" loading="lazy" decoding="async" alt="LSTM architecture: runtime metrics from 12 thirty-second samples pass through recurrent, dropout and fully connected layers to predict CPU utilization, load level and recommended pod count for the next thirty seconds."></a>
+        <figcaption>LSTM workload prediction architecture, extracted from Figure 4 in the supplied revised manuscript. <a href="assets/diagrams/lstm-architecture.webp">View full-size diagram</a>.</figcaption>
+      </figure>
+      <details class="research-detail">
+        <summary>Evaluation evidence and operational interpretation</summary>
+        <p>On unseen test data from <strong>Bitbrains fastStorage</strong>, the model achieved <strong>R² 0.946</strong> and <strong>MAPE 3.28%</strong>. The Runtime Decision Engine also generated the intended categories of operational recommendations.</p>
+        <p>The comparison with Kubernetes Horizontal Pod Autoscaling is functional: forecasting, carbon awareness, workload priorities and SLA-aware decisions are additional capabilities. The manuscript does not provide a quantitative comparison of achieved scaling savings or SLA violation rates.</p>
+      </details>
+      <p><strong>Integration.</strong> Predicted demand, workload classifications and carbon-aware recommendations enter the monitoring record. Historical sustainability feedback informs later runtime policies.</p>
+      <p class="source-note">Source: revised manuscript, Operation Phase Methodology; Operation Stage Implementation; Runtime Workload Prediction and Operational Intelligence.</p>
+    </section>
+
+    <section class="research-section" id="monitoring">
+      <div class="section-heading"><p class="eyebrow">Component 04</p><h2>Sustainability monitoring</h2></div>
+      <p class="lead">Give environmental measurements historical context.</p>
+      <p><strong>Problem and objective.</strong> Current measurements alone cannot establish whether a pipeline stage is behaving unusually. Monitoring constructs stage-specific baselines and identifies potential sustainability regressions across Build, Test and Deploy.</p>
+      <h3>Approach and implementation</h3>
+      <p>A historical repository stores execution duration, processor utilization, infrastructure overhead, estimated energy and emissions, carbon intensity, execution status and timestamps. Statistical Z-scores identify deviations from historical behavior.</p>
+      <p>Stage-specific, unsupervised Isolation Forest-based models examine multiple sustainability indicators together. The implementation describes Extended Isolation Forest, while the reported evaluation labels its model Isolation Forest. The results below retain that evaluation terminology.</p>
+      <p>A <strong>Sustainability Health Score (SHS)</strong>, on a 0–100 scale, is described as a consolidated indicator. Prometheus and Grafana support the research system’s telemetry and visualization. The manuscript does not specify the SHS formula or report a benchmark score.</p>
+      <details class="research-detail">
+        <summary>Monitoring experiment and findings</summary>
+        <p>The experiment covered <strong>21 real Jenkins runs</strong>, generating <strong>63 stage-level records</strong>. Build had the lowest overall impact; Deploy showed the highest mean CPU utilization, energy and emissions; Test was intermediate.</p>
+        <p>Total estimated energy was <strong>0.001163 kWh</strong>, with estimated emissions of <strong>0.000502 kgCO₂e</strong>. These are totals for the monitored sample, not savings.</p>
+        <p>Statistical analysis flagged <strong>eight</strong> executions: four Build, three Test and one Deploy. Isolation Forest flagged <strong>six</strong>. The source does not establish overlap or labelled ground truth, so these counts are not accuracy measures or 14 confirmed distinct anomalies.</p>
+      </details>
+      <p><strong>Integration.</strong> Anomaly reports, carbon-efficiency assessments and SHS feed back into build timing, deployment windows, scaling and workload priorities.</p>
+      <p class="source-note">Source: revised manuscript, Monitoring Phase Methodology; Monitor Stage Implementation; Sustainability Monitoring and Anomaly Detection. Foundations: <a href="#ref-57">[57]</a> <a href="#ref-58">[58]</a> <a href="#ref-59">[59]</a>.</p>
+    </section>
+
+    <section class="research-section" id="technologies">
+      <div class="section-heading"><p class="eyebrow">Implementation context</p><h2>Technologies used</h2></div>
+      <p>These tools belong to the research framework. This academic website provides its explanation and evidence.</p>
+      <div class="grid-2">
+        <div class="card"><h3>DevOps and CI/CD</h3><p>Git and git diff; Maven multi-module builds; Jenkins pipelines; GitHub Actions integration; Docker images.</p></div>
+        <div class="card"><h3>Cloud and infrastructure</h3><p>Oracle cloud VM, Ubuntu Linux, K3s and Kubernetes; Node Affinity, Taints and Tolerations for placement.</p></div>
+        <div class="card"><h3>AI and decision methods</h3><p>Python, LightGBM, Prophet, LSTM, ReAct reasoning, statistical Z-scores and Isolation Forest-based analysis.</p></div>
+        <div class="card"><h3>Observability</h3><p>Prometheus and Grafana; runtime telemetry; historical records and stage-specific sustainability baselines.</p></div>
+        <div class="card"><h3>Carbon intelligence</h3><p>Electricity Maps and WattTime signals; Software Carbon Intensity principles; Power Usage Effectiveness; historical fallback estimates.</p></div>
+        <div class="card"><h3>Research data and analysis</h3><p>Paired Jenkins execution logs, Bitbrains fastStorage traces, hourly national-grid data, time-series cross-validation and SHAP feature attribution.</p></div>
+      </div>
+      <p class="source-note">Source: revised manuscript, Implementation and Results and Evaluation. Tool inclusion describes the documented research implementation; it does not establish that each tool was used in every experiment.</p>
+    </section>
+
+    <section class="research-section" id="evaluation">
+      <div class="section-heading"><p class="eyebrow">Experimental design</p><h2>How the research was evaluated</h2></div>
+      <p>Evaluation combines classifier validation, paired execution benchmarks, workload forecasting and monitoring feasibility. Each experiment answers a different part of the research questions.</p>
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Evaluation design table, horizontally scrollable">
+        <table class="data-table">
+          <caption>Evidence reported in the final revised manuscript</caption>
+          <thead><tr><th scope="col">Study</th><th scope="col">Data and method</th><th scope="col">What it establishes</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Release classification</th><td>Five-fold time-series cross-validation of the tuned LightGBM model.</td><td>Carbon-classification predictive performance. Baseline model names and scores are not supplied.</td></tr>
+            <tr><th scope="row">Selective execution</th><td>Ten paired optimized/unoptimized Jenkins runs on identical commits.</td><td>Changes in execution duration, test count and analysis overhead.</td></tr>
+            <tr><th scope="row">Runtime prediction</th><td>LSTM assessed on unseen Bitbrains fastStorage data.</td><td>Workload forecast accuracy and feasibility of recommendation generation.</td></tr>
+            <tr><th scope="row">Sustainability monitoring</th><td>21 Jenkins runs; 63 Build, Test and Deploy records.</td><td>Stage baselines, estimated environmental totals and anomaly flags.</td></tr>
+            <tr><th scope="row">Deployment and integration</th><td>Architecture and decision-support implementation described in the manuscript.</td><td>Functional integration; no separate deployment or end-to-end carbon-saving benchmark reported.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="source-note">Source: revised manuscript, Results and Evaluation; Threats to Validity.</p>
+    </section>
+
+    <section class="research-section" id="findings">
+      <div class="section-heading"><p class="eyebrow">Verified experimental results</p><h2>Research findings</h2></div>
+      <div class="metric-grid">
+        <div class="metric-card"><p class="eyebrow">Release efficiency</p><strong>47.7%</strong><p>Mean total wall-clock reduction across ten paired Jenkins benchmarks.</p></div>
+        <div class="metric-card"><p class="eyebrow">Selective testing</p><strong>90.4%</strong><p>Possible tests skipped; 13 of 136 test executions performed.</p></div>
+        <div class="metric-card"><p class="eyebrow">Carbon classification</p><strong>0.9787</strong><p>LightGBM macro F1 in five-fold time-series cross-validation.</p></div>
+        <div class="metric-card"><p class="eyebrow">Workload prediction</p><strong>3.28%</strong><p>LSTM MAPE on unseen Bitbrains fastStorage data; R² 0.946.</p></div>
+      </div>
+      <details class="research-detail">
+        <summary>Detailed execution results and forecast limitations</summary>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Detailed release result table, horizontally scrollable">
+          <table class="data-table">
+            <caption>Release results with their original experimental scope</caption>
+            <thead><tr><th scope="col">Measure</th><th scope="col">Reported result</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Total wall-clock reduction</th><td>Mean 47.7%; median 39.9%.</td></tr>
+              <tr><th scope="row">Build/test phases only</th><td>Mean saving 66.1%; median 82.8%.</td></tr>
+              <tr><th scope="row">Documentation or no-operation changes</th><td>Mean execution-time reduction 92.4%.</td></tr>
+              <tr><th scope="row">Single-module / two-module changes</th><td>Mean execution-time reductions 60.4% / 41.2%.</td></tr>
+              <tr><th scope="row">Analysis overhead</th><td>Mean 1.02 seconds, approximately 1.2% of optimized pipeline duration.</td></tr>
+              <tr><th scope="row">Supplementary Prophet forecast</th><td>Approximately 51% MAPE; substantially weaker than the classifier and an area for improvement.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+      <h3>What the combined evidence suggests</h3>
+      <p>Selective execution can reduce redundant CI/CD work with small analysis overhead. Accurate short-term workload forecasts can support proactive operational decisions. Different sustainability patterns across Build, Test and Deploy justify stage-specific baselines.</p>
+      <p>Statistical and Isolation Forest analysis both produced anomaly flags in the monitored sample. Their results demonstrate feasibility, but do not establish comparative detection accuracy. The integrated framework provides a basis for coordinated sustainability decisions; a measured end-to-end carbon reduction remains to be established.</p>
+      <p class="source-note">Source: revised manuscript, CI/CD Optimization Performance; Runtime Workload Prediction and Operational Intelligence; Sustainability Monitoring and Anomaly Detection; Integrated Findings.</p>
+    </section>
+
+    <section class="research-section" id="limitations">
+      <div class="section-heading"><p class="eyebrow">Interpretation and validity</p><h2>Research limitations</h2></div>
+      <ul>
+        <li><strong>Estimated energy and emissions.</strong> Resource-utilization models can introduce error because direct hardware power measurements were not used.</li>
+        <li><strong>External carbon signals.</strong> Decision quality depends on carbon-intensity data availability and accuracy; fallback estimates carry their own uncertainty.</li>
+        <li><strong>Prediction and changing workloads.</strong> Models may need retraining. The supplementary Prophet forecast’s approximately 51% MAPE identifies a specific weakness.</li>
+        <li><strong>Scale and generalizability.</strong> A single experimental environment and limited samples constrain conclusions. Monitoring covers only 21 pipeline runs.</li>
+        <li><strong>Metrics and ground truth.</strong> Sustainability conclusions depend on selected metrics and SHS construction. The manuscript does not report labelled anomaly validation or a reproducible SHS formula.</li>
+        <li><strong>Outcome coverage.</strong> Forecast accuracy and execution-time savings do not alone quantify carbon reduction or SLA preservation. Deployment and full-lifecycle environmental benefits need further comparative evaluation.</li>
+      </ul>
+      <p class="source-note">Source: revised manuscript, Discussion and Threats to Validity, with evaluation boundaries taken from the reported experiments.</p>
+    </section>
+
+    <section class="research-section" id="future-work">
+      <div class="section-heading"><p class="eyebrow">Next research steps</p><h2>Future work</h2></div>
+      <p>The manuscript proposes improved carbon forecasting and reinforcement-learning-based optimization, alongside broader sustainability indicators such as embodied carbon and infrastructure lifecycle impacts.</p>
+      <p>Validation across diverse cloud environments and production-scale workloads is needed to test long-term effectiveness, model robustness and the interaction between environmental objectives and service requirements.</p>
+      <p class="source-note">Source: revised manuscript, Discussion. Code, trained models and experiment artifacts are described as available on reasonable request or through a future public repository; no public repository link is confirmed in the supplied manuscript.</p>
+      <a class="text-link" href="documents.html">Explore the academic document archive <span aria-hidden="true">→</span></a>
+    </section>
+
+    <section class="research-section" id="references">
+      <div class="section-heading"><p class="eyebrow">Sources and further reading</p><h2>Selected references</h2></div>
+      <p>These entries are drawn from the supplied revised manuscript and retain its numbering. They support the literature summaries and method descriptions above. The complete source bibliography also includes repeated and incomplete entries.</p>
+      <ol class="reference-list">
+        <li id="ref-1" value="1">G. Rothermel and M. J. Harrold, “Analyzing regression test selection techniques,” <cite>IEEE Transactions on Software Engineering</cite>, vol. 22, no. 8, pp. 529–551, 1996.</li>
+        <li id="ref-2" value="2">S. Yoo and M. Harman, “Regression testing minimization, selection and prioritization: a survey,” <cite>Software Testing, Verification and Reliability</cite>, vol. 22, no. 2, pp. 67–120, 2012.</li>
+        <li id="ref-3" value="3">Apache Software Foundation, <cite>Maven: Guide to Working with Multiple Modules</cite>.</li>
+        <li id="ref-4" value="4">A. Radovanović et al., “Carbon-aware computing for datacenters,” <cite>IEEE Transactions on Power Systems</cite>, vol. 38, no. 2, pp. 1270–1280, 2023.</li>
+        <li id="ref-5" value="5">P. Wiesner, I. Behnke, D. Scheinert, K. Gontarska and L. Thamsen, “Let’s wait awhile: How temporal workload shifting can reduce carbon emissions in the cloud,” <cite>Middleware ’21</cite>, pp. 260–272, 2021.</li>
+        <li id="ref-6" value="6">Green Software Foundation, <cite>Software Carbon Intensity (SCI) Specification</cite>, ISO/IEC 21031:2024.</li>
+        <li id="ref-9" value="9">G. Ke et al., “LightGBM: A highly efficient gradient boosting decision tree,” <cite>NeurIPS</cite>, vol. 30, pp. 3146–3154, 2017.</li>
+        <li id="ref-13" value="13">S. J. Taylor and B. Letham, “Forecasting at scale,” <cite>The American Statistician</cite>, vol. 72, no. 1, pp. 37–45, 2018.</li>
+        <li id="ref-25" value="25">J. Soldani et al., <cite>Towards Sustainable Deployment of Microservices over the Cloud-Edge Continuum, with FREEDA</cite>, pp. 1–5. Publication year not specified in the manuscript entry.</li>
+        <li id="ref-29" value="29">S. Yao et al., <cite>ReAct: Synergizing Reasoning and Acting in Language Models</cite>, arXiv preprint, 2022.</li>
+        <li id="ref-41" value="41">H. Chamarthi and M. Muppala, <cite>AI Integration for Sustainable DevOps &amp; Cloud: Interdisciplinary Framework Optimized Resource Management and Carbon Efficiency</cite>, 2025.</li>
+        <li id="ref-47" value="47">C. Becker et al., <cite>The Karlskrona Manifesto for Sustainability Design</cite>, arXiv:1410.6968, 2014, as listed in the manuscript.</li>
+        <li id="ref-48" value="48">S. Naumann, M. Dick, E. Kern and T. Johann, “The GREENSOFT Model: A Reference Model for Green and Sustainable Software and its Engineering,” <cite>Sustainable Computing: Informatics and Systems</cite>, vol. 1, no. 4, pp. 294–304, 2011.</li>
+        <li id="ref-49" value="49">M. T. Ailane, C. Rubner and A. Rausch, “Green DevOps: A Strategic Framework for Sustainable Software Development,” <cite>ICT4S</cite>, 2023.</li>
+        <li id="ref-50" value="50">N. Condori-Fernandez, P. Lago and colleagues, “SusDevOps: Operationalizing Sustainability in DevOps Processes,” <cite>RE4SuSy</cite>, 2022.</li>
+        <li id="ref-53" value="53">Thoughtworks, <cite>Cloud Carbon Footprint Methodology Documentation</cite>, 2023.</li>
+        <li id="ref-57" value="57">V. Chandola, A. Banerjee and V. Kumar, “Anomaly Detection: A Survey,” <cite>ACM Computing Surveys</cite>, vol. 41, no. 3, article 15, 2009.</li>
+        <li id="ref-58" value="58">F. T. Liu, K. M. Ting and Z.-H. Zhou, “Isolation Forest,” <cite>IEEE International Conference on Data Mining</cite>, pp. 413–422, 2008.</li>
+        <li id="ref-59" value="59">S. Hariri, M. Carrasco Kind and R. J. Brunner, “Extended Isolation Forest,” <cite>IEEE Transactions on Knowledge and Data Engineering</cite>, vol. 33, no. 4, pp. 1479–1489, 2021.</li>
+        <li id="ref-60" value="60">A. Beloglazov and R. Buyya, “Energy Efficient Resource Management in Virtualized Cloud Data Centers,” <cite>IEEE/ACM International Conference on Cluster, Cloud and Grid Computing</cite>, 2010.</li>
+      </ol>
+      <p class="source-note">Primary project source: <cite>An Integrated Green DevOps Framework for Sustainable Software Delivery and Operations</cite>. <a href="assets/documents/revised-journal.pdf">Read PDF</a> · <a href="assets/documents/revised-journal.docx" download>Download supplied Word manuscript</a>. Publication status is not confirmed in the supplied materials.</p>
+    </section>
+  </article>
+</div>

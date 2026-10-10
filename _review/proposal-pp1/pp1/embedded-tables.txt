@@ -1,0 +1,41 @@
+ppt/embeddings/oleObject1.bin
+A1: Student ID | B1: Panel Comment | C1: How We Addressed
+A2: IT22110084                             
+(Release Component) | B2: Improve time management,
+Component is fine | C2: Kept the implementation unchanged,
+for the ML model found a proper dataset. practiced with a timer
+A3: IT22149930                
+(Deployment Component) | B3: Component is fine | C3: Kept the implementation unchanged
+A4: IT22281432                                 
+(Operations Component) | B4: Component is fine | C4: Kept the implementation unchanged
+A5: IT22189776
+(Monitor Component) | B5: ML technique clarification | C5: Used Isolation Forrest as the ML Model
+
+ppt/embeddings/oleObject2.bin
+A1:  | B1: PP1 | C1: PP2 | D1: Final
+A2: Release
+Component | B2: Change Impact Analyzer,
+Selective Build Execution,
+Selective Test Execution done. | C2:   Implement the carbon
+emission aware AI model for 
+build location suggestion | D2: Put effort to 
+fine tune the system
+A3: Deploy 
+Component | B3: The energy profiler & 
+deployment comparator 
+Implemented | C3: Implement/train an AI 
+decision engine and integration 
+with the release component  | D3: Fine tune the profiler and AI 
+decision engine 
+A4: Operation
+Component | B4: Future workload prediction 
+& 
+pod scaling engin implemented | C4: Job prioritization and finish 
+testing | D4: Fine-tune and integrate whole 
+system
+A5: Monitor
+Component | B5: Monitoring framework,
+Statistical anomaly detection,
+Isolation Forest prototype | C5: Implement LLM-based
+Sustainability Analyst Assistant | D5: Fine-tunening the LLM and 
+ integrating the System

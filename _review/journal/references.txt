@@ -1,0 +1,62 @@
+[214 P Normal] [1] G. Rothermel and M. J. Harrold, "Analyzing regression test selection techniques," IEEE Trans. Softw. Eng., vol. 22, no. 8, pp. 529–551, Aug. 1996.
+[215 P Normal] [2] S. Yoo and M. Harman, "Regression testing minimization, selection and prioritization: a survey," Softw. Test. Verif. Reliab., vol. 22, no. 2, pp. 67–120, 2012.
+[216 P Normal] [3] Apache Software Foundation, "Maven: Guide to Working with Multiple Modules." [Online]. Available: https://maven.apache.org/guides/mini/guide-multiple-modules.html
+[217 P Normal] [4] A. Radovanović et al., "Carbon-aware computing for datacenters," IEEE Trans. Power Syst., vol. 38, no. 2, pp. 1270–1280, 2023.
+[218 P Normal] [5] P. Wiesner, I. Behnke, D. Scheinert, K. Gontarska, and L. Thamsen, "Let's wait awhile: How temporal workload shifting can reduce carbon emissions in the cloud," in Proc. 22nd Int. Middleware Conf. (Middleware '21), New York, NY, USA, 2021, pp. 260–272.
+[219 P Normal] [6] Green Software Foundation, "Software Carbon Intensity (SCI) Specification," ISO/IEC 21031:2024. [Online]. Available: https://sci.greensoftware.foundation/
+[220 P Normal] [7] C. Bergmeir and J. M. Benítez, "On the use of cross-validation for time series predictor evaluation," Inf. Sci., vol. 191, pp. 192–213, 2012.
+[221 P Normal] [8] H. He and E. A. Garcia, "Learning from imbalanced data," IEEE Trans. Knowl. Data Eng., vol. 21, no. 9, pp. 1263–1284, Sep. 2009.
+[222 P Normal] [9] G. Ke et al., "LightGBM: A highly efficient gradient boosting decision tree," in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 30, 2017, pp. 3146–3154.
+[223 P Normal] [10] T. Chen and C. Guestrin, "XGBoost: A scalable tree boosting system," in Proc. 22nd ACM SIGKDD Int. Conf. Knowl. Discov. Data Min. (KDD), San Francisco, CA, USA, 2016, pp. 785–794.
+[224 P Normal] [11] S. M. Lundberg and S.-I. Lee, "A unified approach to interpreting model predictions," in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 30, 2017, pp. 4765–4774.
+[225 P Normal] [12] T. Akiba, S. Sano, T. Yanase, T. Ohta, and M. Koyama, "Optuna: A next-generation hyperparameter optimization framework," in Proc. 25th ACM SIGKDD Int. Conf. Knowl. Discov. Data Min. (KDD), Anchorage, AK, USA, 2019, pp. 2623–2631.
+[226 P Normal] [13] S. J. Taylor and B. Letham, "Forecasting at scale," Amer. Statist., vol. 72, no. 1, pp. 37–45, 2018.
+[227 P Normal] [14] Ceylon Electricity Board (CEB), Sri Lanka, system generation statistics. [Online]. Available: https://www.ceb.lk/
+[228 P Normal] [15] Electricity Maps, "Electricity Maps API Documentation." [Online]. Available: https://www.electricitymaps.com/
+[229 P NormalWeb] [16] L. P. Rongali, "Green DevOps Metrics for Utility Operations," Green DevOps Metrics for Utility Operations, 2025. 
+[230 P NormalWeb] [17] Rand Alamer and Ohoud Alharbi, "Sustainable Devops: A Systematic Literature Review on Reducing Energy Footprint in Continuous Integration and Deployment (Ci/Cd) Pipelines," International Journal of Computations, Information and Manufacturing, pp. 24-32, 2025. 
+[231 P NormalWeb] [18] N. R. Pinnapareddy, "Carbon Conscious Scheduling in Kubernetes to Cut Energy Use and Emissions," International Journal of Computational and Experimental , vol. II, no. 3, pp. 6288-6305, 2025. 
+[232 P NormalWeb] [19] M. Muppala and Harish Chamarthi, "AI Integration for Sustainable DevOps & Cloud Interdisciplinary: Framework Optimized Resource Management and Carbon Efficiency," International Conference on Sustainable Communication Networks, pp. 1836-1841, 2025. 
+[233 P NormalWeb] [20] Darwish Ahmad Herati, Maria Clara Aderne and Fabio Kon, "The road to Sustainable DevOps," IME- University of S˜ao Paulo, pp. 1-4, 2025. 
+[234 P NormalWeb] [21] R. Verdecchia, P. Lago, C. Ebert and C. De Vries, "Green IT and Green Software," IEEE Software, 2021. 
+[235 P NormalWeb] [22] Y. Zou, T. A. Ghaleb and D. A. d. Costa, "The Promise and Reality of Continuous Integration Caching: An Empirical Study of Travis CI Builds," arXiv, 2026. 
+[236 P NormalWeb] [23] A. Hitesh, "Sustainable Cloud Engineering: Optimizing Resources for Green DevOps," International Journal of Artificial Intelligence, Data Science, and Machine Learning, vol. 4, no. 4, pp. 36-46, 2023. 
+[237 P NormalWeb] [24] Jesse Dodge, Taylor Prewitt, Remi Tachet Des Combes, Erika Odmark, Roy Schwartz, Emma Strubell, Alexandra Sasha Luccioni, Noah A. Smith and Nicole DeCario, "Measuring the Carbon Intensity of AI in Cloud Instances," 2022. 
+[238 P NormalWeb] [25] Jacopo Soldani, Roberto Amadini, Antonio Brogi, Stefano Forti, Saverio Giallorenzo, Pierluigi Plebani, Monica Vitali and Gianluigi Zavattaro, "Towards Sustainable Deployment of Microservices over the Cloud-Edge Continuum, with FREEDA," Towards Sustainable Deployment of Microservices over the Cloud-Edge Continuum, with FREEDA, pp. 1-5. 
+[239 P NormalWeb] [26] J. Humble and D. Farley, "Continuous delivery : reliable software releases through build, test, and deployment automation," Continuous delivery : reliable software releases through build, test, and deployment automation , 2010. 
+[240 P NormalWeb] [27] Emma Strubell, Ananya Ganesh and Andrew McCallum, "Energy and Policy Considerations for Deep Learning in NLP," Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics,, pp. 3645-3650, 2019. 
+[241 P NormalWeb] [28] L. L. J. W. K. L. E. A. F. A. Z. L. C. L. M. Zhengyuan Yang, "Mm-react: Prompting chatgpt for multimodal reasoning and action.," Mm-react: Prompting chatgpt for multimodal reasoning and action.. 
+[242 P NormalWeb] [29] J. Z. D. Y. N. D. I. S. K. N. a. Y. C. Shunyu Yao, " React: Synergizing reasoning and acting in language models," arXiv preprint arXiv, 2022. 
+[243 P NormalWeb] [30] P. C. Jakku, "Resilient Kubernetes Deployment Strategies for Microservices: A Practical Reliability Model," International Journal For Multidisciplinary Research, 2021. 
+[244 P NormalWeb] [31] A. Malhotra, A. Elsayed, R. Torres and S. Venkatraman, "Evaluate Canary Deployment Techniques Using Kubernetes, Istio, and Liquibase for Cloud Native Enterprise Applications to Achieve Zero Downtime for Continuous Deployments," IEEE Access, 2024, 2024. 
+[245 P NormalWeb] [31] S. S. Poojary, S. Kamble and D. G. S. Mamatha, "A Scalable DevOps Framework Using Kubernetes-Orchestrated Microservices for Cloud-Native Infrastructure," 2025 9th International Conference on Computational System and Information Technology for Sustainable Solutions (CSITSS) , 2025. 
+[246 P NormalWeb] [32] 1. J. Z. D. Y. N. D. I. S. K. N. Y. C. Shunyu Yao∗*, "SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS," ICLR 2023, pp. 1-33, 2023. 
+[247 P NormalWeb] [33] Nitin Kumar and Dr Neeraj Sharma, "A Comprehensive Study forGreen Computing-Based DevOps Process inAgile Delivery Model," 2012 IJFANS, vol. 11, no. 11, pp. 2820-2826, 2022. 
+[248 P NormalWeb] [34] A. @. M. LlamaTeam, "The Llama 3Herd of Models". 
+[249 P NormalWeb] [35] 2. J. G. U. H. Q. L. C. L. L.-M. M. David Patterson1, "The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink," 2025. 
+[250 P NormalWeb] [36] R. B. D. A. H. E. A. R. A. S. Arora, "On the Opportunities and Risks of Foundation Models," Center for Research on Foundation Models, 2022. 
+[251 P NormalWeb] [37] L. C. D. F. J. S. A. v. D. Tim Yarally∗, "Uncovering Energy-Efficient Practices in Deep Learning Training: Preliminary Steps Towards Green AI," 2023 IEEE/ACM 2nd International Conference on AI Engineering – Software Engineering for AI (CAIN), 2023. 
+[252 P NormalWeb] [38] J. D. N. A. S. A. O. E. ROY SCHWARTZ, "Green AI," COMMUNICATIONS OF THE ACM, vol. 63, no. 12, December 2020. 
+[253 P Normal] [39] “Carbon Conscious Scheduling in Kubernetes to Cut Energy Use and Emissions.”
+[254 P Normal] [40] “Carbon-Aware Resource Allocation: Dynamically Balancing Compute Loads with Renewable Energy Availability.”
+[255 P Normal] [41] H. Chamarthi and M. Muppala, “AI Integration for Sustainable DevOps & Cloud: Interdisciplinary Framework Optimized Resource Management and Carbon Efficiency,” 2025.
+[256 P Normal] [42] S. S. Poojary, S. Kamble, and G. S. Mamatha, “A Scalable DevOps Framework Using Kubernetes-Orchestrated Microservices for Cloud-Native Infrastructure,” 2025.
+[257 P Normal] [43] “Sustainable Cloud Engineering: Optimizing Resources for Green DevOps.”
+[258 P Normal] [44] “Rethinking Computing Systems in the Era of Climate Crisis: A Call for a Sustainable Computing Continuum.”
+[259 P Normal] [45] “Sustainable DevOps: A Systematic Literature Review on Reducing Energy Footprint in CI/CD Pipelines.”
+[260 P Normal] [46] A. Aneggi, X. Li, and A. Janes, “PPTAMη: Energy Aware CI/CD Pipeline for Container Based Applications.”
+[261 P FirstParagraph] [47] Becker, C., Chitchyan, R., Duboc, L., Easterbrook, S., Mahaux, M., Penzenstadler, B., Seyff, N., and Venters, C. C., “The Karlskrona Manifesto for Sustainability Design,” arXiv preprint arXiv:1410.6968, 2014.
+[262 P BodyText] [48] Naumann, S., Dick, M., Kern, E., and Johann, T., “The GREENSOFT Model: A Reference Model for Green and Sustainable Software and its Engineering,” Sustainable Computing: Informatics and Systems, vol. 1, no. 4, pp. 294–304, 2011.
+[263 P BodyText] [49] Ailane, M. T., Rubner, C., and Rausch, A., “Green DevOps: A Strategic Framework for Sustainable Software Development,” in Proceedings of the International Conference on Information and Communication Technology for Sustainability (ICT4S), 2023.
+[264 P BodyText] [50] Condori-Fernandez, N., Lago, P., and colleagues, “SusDevOps: Operationalizing Sustainability in DevOps Processes,” in Proceedings of the International Workshop on Requirements Engineering for Sustainable Systems (RE4SuSy), 2022.
+[265 P BodyText] [51] Penzenstadler, B., Bauer, V., Calero, C., and Franch, X., “Sustainability in Software Engineering: A Systematic Literature Review,” in Proceedings of the International Conference on Evaluation and Assessment in Software Engineering (EASE), 2012.
+[266 P BodyText] [52] Green Software Foundation, “Software Carbon Intensity (SCI) Specification,” Green Software Foundation Standard, Version 1.0, 2023.
+[267 P BodyText] [53] Thoughtworks, “Cloud Carbon Footprint Methodology Documentation,” Cloud Carbon Footprint Project Documentation, 2023.
+[268 P BodyText] [54] Muhammad Zuhaib, “Towards Sustainable DevOps: A Decision-Making Framework for Sustainable Software Delivery,” Journal of Systems and Software, 2023.
+[269 P BodyText] [55] Lannelongue, L., Grealey, J., and Inouye, M., “Carbon-Aware Computing for Continuous Integration and Continuous Deployment Pipelines,” in Proceedings of ICT4S, 2023.
+[270 P BodyText] [56] Courboulay, V., and colleagues, “Software Frugality in an Accelerating World: The Case of Continuous Integration,” IEEE Software, vol. 39, no. 1, pp. 47–53, 2022.
+[271 P BodyText] [57] Chandola, V., Banerjee, A., and Kumar, V., “Anomaly Detection: A Survey,” ACM Computing Surveys, vol. 41, no. 3, Article 15, 2009.
+[272 P BodyText] [58] Liu, F. T., Ting, K. M., and Zhou, Z.-H., “Isolation Forest,” in Proceedings of the IEEE International Conference on Data Mining (ICDM), Pisa, Italy, 2008, pp. 413–422.
+[273 P BodyText] [59] Hariri, S., Carrasco Kind, M., and Brunner, R. J., “Extended Isolation Forest,” IEEE Transactions on Knowledge and Data Engineering, vol. 33, no. 4, pp. 1479–1489, 2021.
+[274 P BodyText] [60] Beloglazov, A., and Buyya, R., “Energy Efficient Resource Management in Virtualized Cloud Data Centers,” in Proceedings of the IEEE/ACM International Conference on Cluster, Cloud and Grid Computing (CCGrid), 2010.
+[275 P BodyText] [61] Verma, A., Pedrosa, L., Korupolu, M., Oppenheimer, D., Tune, E., and Wilkes, J., “Large-Scale Cluster Management at Google with Borg,” in Proceedings of the European Conference on Computer Systems (EuroSys), 2015.

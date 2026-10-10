@@ -1,0 +1,2256 @@
+[
+  {
+    "block": 0,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 1,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 2,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 3,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 4,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 5,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 6,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 7,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 8,
+    "tag": "p",
+    "text": "An Integrated Green DevOps Framework for Sustainable Software Delivery and Operations",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 9,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 10,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 11,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 12,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 13,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 14,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 15,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 16,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 17,
+    "tag": "p",
+    "text": "Abstract",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 18,
+    "tag": "p",
+    "text": "The information technology sector now accounts for approximately 2–4% of global greenhouse gas emissions, with Continuous Integration and Continuous Deployment (CI/CD) pipelines contributing materially through repeated automated build, test, and deployment activity. Although carbon-aware scheduling, predictive resource management, and sustainability monitoring have each been investigated, no existing framework integrates these mechanisms across the full software delivery lifecycle. This paper presents an integrated Green DevOps framework embedding carbon-aware decision-making across four lifecycle stages: Release, Deployment, Operation, and Monitoring. At the Release stage, a git-diff-based selective execution engine combined with a LightGBM carbon-intensity classifier achieves a macro F1-score of 0.9787, reducing pipeline wall-clock execution time by 47.7% on average and skipping 90.4% of otherwise unnecessary test executions. At the Deployment stage, a ReAct-paradigm AI agent dynamically selects deployment strategies and schedules release windows according to live grid carbon-intensity signals. At the Operation stage, a Long Short-Term Memory (LSTM) workload forecasting model achieves an R² of 0.946 and a MAPE of 3.28%, enabling proactive, carbon-aware Kubernetes scaling with SLA-aware workload prioritization. At the Monitoring stage, a hybrid anomaly detection system combining statistical Z-score analysis with stage-specific Isolation Forest models provides continuous sustainability intelligence, consolidated into a unified Sustainability Health Score. Evaluated against real Jenkins pipeline executions and operational workload traces, the framework demonstrates that lifecycle-wide sustainability optimization can be achieved without compromising delivery velocity, application performance, or service-level compliance.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 19,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 20,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 21,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 22,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 23,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 24,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 25,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 26,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 27,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 28,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 29,
+    "tag": "p",
+    "text": "INTRODUCTION",
+    "style": [
+      "Heading1"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 30,
+    "tag": "p",
+    "text": "Background",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 31,
+    "tag": "p",
+    "text": "The pervasive digitalization of global economies has created a substantial and rapidly expanding environmental burden. The information technology sector now accounts for approximately 2–4% of global greenhouse gas emissions, with data centers alone consuming an estimated 70 billion kWh annually, a share projected to rise sharply as AI-driven digital infrastructure expands [16]. A significant portion of this footprint is hidden across the software lifecycle rather than confined to data center operation: nearly half of the sector's emissions originate from carbon-intensive hardware manufacturing [16], while modern Continuous Integration and Continuous Deployment (CI/CD) pipelines themselves contribute materially to energy consumption through frequent, automated build, test, and deployment activity [17], [56]. Sustainability has consequently emerged as a fundamental software quality attribute alongside reliability, maintainability, and performance [47], motivating sustainable software engineering principles and methodologies aimed at minimizing the ecological footprint of software throughout its lifecycle [48], [51]. This has given rise to the broader paradigm of Green DevOps, which systematically integrates environmental responsibility into established DevOps practice and reframes conventional performance metrics — such as the DORA indicators — into a three-dimensional view that explicitly accounts for environmental impact alongside speed and stability [16]. This shift is compounded by the parallel growth of cloud-native, containerized infrastructure: Kubernetes has become the dominant container orchestration platform, automating deployment and resource scaling at a scale that has itself become a significant driver of data-center electricity demand and associated emissions [42], [44].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 32,
+    "tag": "p",
+    "text": "Problem Statement",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 33,
+    "tag": "p",
+    "text": "Within this broader context, sustainability inefficiencies recur across every stage of the software delivery lifecycle, each with a distinct operational character. At the Release stage, CI pipelines conventionally rebuild and re-test an entire multi-module repository on every commit regardless of change scope, performing redundant work that scales with repository size rather than change scope [1], while remaining entirely insensitive to the temporal variability of grid carbon intensity. At the Deploy stage, software is conventionally promoted to production immediately upon build completion, irrespective of the prevailing carbon intensity of the energy grid powering that deployment, despite established carbon-aware practices that could mitigate this footprint [16]. At the Operate stage, Kubernetes autoscaling mechanisms are predominantly reactive, triggering resource adjustments only after utilization thresholds are breached, and rely exclusively on performance metrics such as CPU and memory utilization while disregarding the environmental consequence of scaling decisions; workloads are further treated uniformly, with no mechanism to defer delay-tolerant jobs during high-carbon periods. At the Monitor stage, existing observability platforms track performance, reliability, and resource utilization but provide no comparable mechanism for establishing sustainability baselines or detecting sustainability regressions, leaving teams unable to proactively identify abnormal environmental behavior.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 34,
+    "tag": "p",
+    "text": " Research Gap",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 35,
+    "tag": "p",
+    "text": "Existing literature has largely addressed these concerns in isolation. Regression test selection and build-system research optimizes compute scope without carbon-timing awareness [1], [2], while carbon-aware computing research demonstrates that temporal workload shifting can meaningfully reduce emissions for delay-tolerant work even under short flexibility windows [5], [18]. Separately, predictive resource-management research has shown that machine learning can forecast workload behavior and improve infrastructure utilization [41], and carbon-aware scheduling research has shown that workload placement and timing can be adjusted using carbon-intensity information [39], [40] — but these threads are rarely integrated with workload-priority-aware decision-making in operational Kubernetes contexts [42]. At the monitoring layer, sustainability metrics are commonly reported but rarely interpreted within historical context, and the application of machine learning to sustainability anomaly detection within CI/CD environments remains comparatively unexplored [57], [58]. No existing framework integrates carbon-aware decision-making consistently across the Release, Deploy, Operate, and Monitor stages of a single delivery pipeline; this gap motivates the integrated framework presented in this paper.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 36,
+    "tag": "p",
+    "text": " Research Questions",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 37,
+    "tag": "p",
+    "text": "RQ1 (Release): To what extent can git-diff-based, module-level change-impact analysis, combined with a learned carbon-intensity classifier, reduce both unnecessary build/test execution and the carbon cost of necessary execution in CI/CD pipelines?",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 38,
+    "tag": "p",
+    "text": "RQ2 (Deploy): How can real-time grid carbon-intensity signals and predictive analytics be incorporated into deployment scheduling to identify low-carbon deployment windows without degrading delivery performance?",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 39,
+    "tag": "p",
+    "text": "RQ3 (Operate): How accurately can an LSTM-based model predict Kubernetes workload demand, and how can carbon-emission estimation and workload prioritization be integrated into scaling decisions to reduce environmental impact while preserving SLA compliance?",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 40,
+    "tag": "p",
+    "text": "RQ4 (Monitor): How can sustainability monitoring be extended from measurement alone to historical baseline modelling and anomaly detection, enabling automatic identification of sustainability regressions across the Release, Deploy, and Operate stages?",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 41,
+    "tag": "p",
+    "text": " Novelty Statement",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 42,
+    "tag": "p",
+    "text": "The novelty of this work lies less in any single technique than in the consistent integration of carbon-awareness across all four stages of the delivery lifecycle within one coherent framework, rather than as isolated, stage-specific optimizations. The Release component couples empirically benchmarked build/test efficiency gains with a cross-validated carbon-intensity classifier; the Deploy component extends carbon-aware decision-making to deployment scheduling using fine-grained, deployment-stage measurement; the Operate component is, to our knowledge, among the first to jointly integrate LSTM-based workload forecasting, carbon-emission estimation, and SLA-aware workload prioritization into a single Kubernetes runtime decision engine; and the Monitor component introduces sustainability intelligence — historical baselining and hybrid statistical/Isolation-Forest anomaly detection — where existing tooling offers measurement alone. Together, these contributions move Green DevOps from independent, stage-local optimizations toward a single, lifecycle-wide carbon-aware decision architecture.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 43,
+    "tag": "p",
+    "text": " Research Objectives",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 44,
+    "tag": "p",
+    "text": "The objectives of this research are to: (1) develop and empirically benchmark a module-level change-impact mechanism and a carbon-intensity classifier for Release-stage build/test scheduling; (2) establish fine-grained deployment-stage carbon measurement and use predictive analytics to autonomously identify low-carbon deployment windows; (3) develop an LSTM-based workload forecasting engine, a carbon-emission estimation engine, and a workload-prioritization mechanism, integrated into a runtime decision engine for sustainable Kubernetes scaling; (4) construct historical sustainability baselines and a hybrid anomaly-detection mechanism capable of identifying sustainability regressions across Build, Test, and Deploy activity; and (5) evaluate the integrated framework's aggregate ability to reduce unnecessary compute and carbon emissions across the full delivery lifecycle while preserving delivery velocity, application performance, and SLA compliance, including identification of synergistic outcomes where environmental optimization also yields cost or performance benefits [16].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 45,
+    "tag": "p",
+    "text": " Research Contributions",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 46,
+    "tag": "p",
+    "text": "This paper makes the following contributions: (1) a git-diff-driven, module-level selective build/test mechanism for Maven-based CI pipelines, evaluated against real paired Jenkins execution logs and combined with a LightGBM-based carbon-intensity classifier for build scheduling; (2) a deployment-stage carbon measurement and scheduling approach grounded in Software Carbon Intensity principles and real-time grid signals; (3) a carbon-aware predictive scaling and job-prioritization framework for Kubernetes integrating LSTM-based workload forecasting, carbon-emission estimation, and SLA-aware workload prioritization into a unified runtime decision engine, evaluated using the Bitbrains fastStorage dataset; (4) a hybrid statistical and Isolation-Forest-based sustainability anomaly-detection framework with a consolidated Sustainability Health Score; and (5) the integration of all four mechanisms into a single, lifecycle-wide Green DevOps framework spanning Release, Deploy, Operate, and Monitor.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 47,
+    "tag": "p",
+    "text": " Paper Organization",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 48,
+    "tag": "p",
+    "text": "The remainder of this paper is organized as follows. Section II reviews related work across regression test selection and build optimization, carbon-aware computing and temporal/spatial workload shifting, predictive resource management for cloud-native systems, and sustainability monitoring and anomaly detection. Section III details the methodology underlying each of the four components. Section IV describes their implementation and integration. Section V presents experimental results and evaluation findings for each component. Section VI discusses cross-component implications, limitations, and directions for future work.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 49,
+    "tag": "p",
+    "text": "Related Work",
+    "style": [
+      "Heading1"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 50,
+    "tag": "p",
+    "text": "Sustainable Software Engineering and Green DevOps",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 51,
+    "tag": "p",
+    "text": "The growing environmental impact of digital infrastructure has elevated sustainability from a peripheral concern to a core software engineering objective. Foundational work such as the Karlskrona Manifesto argues that sustainability must be treated as a systemic software quality attribute encompassing environmental, technical, economic, and social dimensions rather than as an isolated optimization target [47]. Similarly, the GREENSOFT framework introduced lifecycle-oriented sustainability assessment methodologies and demonstrated that environmental performance can be systematically incorporated into software engineering processes through measurable sustainability indicators [48].",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 52,
+    "tag": "p",
+    "text": "Building on these foundations, Green DevOps and Sustainable DevOps (SusDevOps) have emerged as extensions of conventional DevOps practices that integrate environmental responsibility into software delivery workflows [49], [50], [20]. Existing studies highlight that the Information and Communication Technology (ICT) sector contributes approximately 2–4% of global CO₂ emissions, with software-intensive infrastructures increasingly responsible for substantial energy consumption [19], [21]. Consequently, researchers have advocated expanding traditional DevOps objectives beyond speed, reliability, and automation to include sustainability-aware decision making. Frameworks proposed by Ailane et al. and other Sustainable DevOps researchers emphasize efficient resource utilization, environmentally conscious deployment practices, and sustainability-oriented governance mechanisms throughout the software lifecycle [49], [50], [54]. Recent discussions further suggest that conventional performance indicators such as DORA metrics should evolve to incorporate environmental considerations, thereby aligning operational excellence with sustainability objectives [16].",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 53,
+    "tag": "p",
+    "text": "Energy Measurement, Carbon Accounting, and Sustainability Monitoring",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 54,
+    "tag": "p",
+    "text": "Accurate sustainability assessment requires reliable mechanisms for quantifying energy consumption and carbon emissions generated by software systems. Existing literature identifies two principal approaches: direct hardware-based power measurement and software-based estimation models [17]. Although hardware sensors provide highly accurate measurements, they are often impractical in virtualized and cloud-native environments where physical infrastructure access is limited. Consequently, many studies estimate energy consumption using resource utilization metrics such as CPU load, memory consumption, and network throughput [17], [60].",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 55,
+    "tag": "p",
+    "text": "Several standardized frameworks have emerged to support sustainability accounting. The Software Carbon Intensity (SCI) specification provides a structured methodology for calculating software-related emissions by combining energy consumption estimates with carbon intensity information [52]. Complementary approaches such as Cloud Carbon Footprint extend these calculations to cloud environments through infrastructure-level utilization data and regional electricity grid characteristics [53]. Additional metrics including Power Usage Effectiveness (PUE) and Carbon Usage Effectiveness (CUE) have become widely adopted for evaluating operational efficiency and environmental impact [16].",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 56,
+    "tag": "p",
+    "text": "Beyond measurement, researchers have emphasized the importance of sustainability monitoring and observability. Existing monitoring platforms effectively capture operational metrics but often provide limited visibility into environmental performance [57], [58]. Recent studies argue that sustainability monitoring should include historical baseline construction, trend analysis, and anomaly identification to detect sustainability regressions and abnormal environmental behavior over time [57], [58], [59]. However, most existing solutions remain focused on measurement and reporting rather than intelligent sustainability assessment.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 57,
+    "tag": "p",
+    "text": "Sustainability Challenges in CI/CD Pipelines",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 58,
+    "tag": "p",
+    "text": "Continuous Integration and Continuous Deployment (CI/CD) pipelines have become central to modern software delivery, automating activities such as compilation, testing, packaging, validation, and deployment. While these practices improve development agility, they also introduce substantial computational overhead [56]. Research has shown that repeated build execution, regression testing, dependency resolution, and artifact generation contribute significantly to infrastructure resource consumption and associated carbon emissions [56], [17].",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 59,
+    "tag": "p",
+    "text": "To reduce this overhead, software engineering researchers have investigated regression test selection, test minimization, and incremental build strategies. Foundational work by Rothermel and Harrold formalized regression test selection as the identification of tests affected by code modifications, while later surveys categorized cost-reduction techniques into test selection, minimization, and prioritization strategies [1], [2]. Modern build systems and incremental execution frameworks further reduce redundant computation through dependency-aware build graphs and caching mechanisms [3], [22]. These studies collectively demonstrate that eliminating unnecessary CI/CD activities can substantially improve resource efficiency and sustainability outcomes.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 60,
+    "tag": "p",
+    "text": "Despite these advances, existing optimization approaches largely focus on reducing execution cost and improving delivery performance. Relatively little attention has been directed toward integrating sustainability monitoring, environmental intelligence, and carbon-awareness directly into CI/CD decision-making processes.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 61,
+    "tag": "p",
+    "text": "Carbon-Aware Computing, Workload Scheduling and Sustainable Deployment",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 62,
+    "tag": "p",
+    "text": "Carbon-aware computing has emerged as one of the most promising approaches for reducing emissions associated with software systems and cloud infrastructures. Rather than executing workloads solely according to performance requirements, carbon-aware systems incorporate real-time electricity grid carbon intensity information to determine when and where workloads should be executed [39], [40], [18].",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 63,
+    "tag": "p",
+    "text": "Research demonstrates that carbon intensity can vary substantially across geographic regions and time periods depending on renewable energy availability [18], [23]. Consequently, temporal workload shifting has gained significant attention as a sustainability strategy. Industrial implementations such as Google’s Carbon-Intelligent Computing platform utilize forecasted carbon intensity information to defer delay-tolerant workloads during high-carbon periods [4]. Empirical studies further report that bounded workload shifting can achieve meaningful emission reductions even within flexibility windows of only a few hours [5]. Additional investigations into carbon-aware Kubernetes scheduling indicate potential emission reductions ranging from approximately 10% to 30% without significant impacts on application performance [18]. Similar findings have been reported for pause-and-resume strategies applied to long-running computational workloads, where carbon savings between 2% and 15% have been observed depending on regional grid characteristics [24].",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 64,
+    "tag": "p",
+    "text": "Recent research has extended these principles beyond workload scheduling toward sustainability-aware software deployment. Traditional deployment strategies such as Blue-Green and Canary deployments were originally designed to improve reliability and reduce deployment risk; however, emerging studies suggest that deployment activities themselves can be optimized according to environmental objectives [25], [26]. The FREEDA framework demonstrates that deployment tasks can be placed on energy-efficient infrastructure nodes across cloud-edge environments through declarative deployment modelling, reducing dependence on carbon-intensive resources [25]. Similarly, Kubernetes-native mechanisms such as Node Affinity, Taints and Tolerations, and custom scheduling policies have been investigated as practical approaches for environmentally conscious workload placement and deployment optimization [31].",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 65,
+    "tag": "p",
+    "text": "These studies collectively demonstrate that sustainability improvements can be achieved through both temporal optimization and deployment-stage decision making. However, most existing solutions address scheduling, deployment optimization, and carbon awareness as separate concerns. Integrated approaches capable of coordinating workload scheduling, deployment strategy selection, and sustainability monitoring throughout the software delivery lifecycle remain relatively limited.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 66,
+    "tag": "p",
+    "text": "AI-Driven Resource Management, Runtime Monitoring, and Sustainability Intelligence",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 67,
+    "tag": "p",
+    "text": "The increasing complexity of cloud-native systems has motivated the application of artificial intelligence and machine learning to resource management and operational decision-making. Recent research demonstrates that predictive analytics can improve infrastructure utilization by forecasting workload demand and proactively adjusting resource allocations [41]. Within Kubernetes environments, predictive autoscaling techniques have been proposed to overcome the limitations of reactive threshold-based scaling approaches, reducing over-provisioning while maintaining application performance [41], [42].",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 68,
+    "tag": "p",
+    "text": "Beyond workload prediction, researchers have explored autonomous optimization frameworks that simultaneously consider multiple operational objectives. Reinforcement learning and other machine learning techniques have been employed to balance performance, cost, resource utilization, and environmental impact [19]. Studies report energy reductions of approximately 30–45% through intelligent resource right-sizing, adaptive scaling, and predictive operational control [19]. Runtime monitoring platforms such as Prometheus and Grafana provide the telemetry required to support these intelligent decision systems, while sustainable cloud engineering research highlights the importance of combining observability, automation, and environmental awareness within cloud-native infrastructures [43].",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 69,
+    "tag": "p",
+    "text": "Recent work has also highlighted the importance of moving beyond passive monitoring toward sustainability intelligence. Existing observability platforms effectively collect operational metrics but typically lack mechanisms for identifying sustainability regressions and abnormal environmental behavior. To address this limitation, researchers have increasingly investigated anomaly detection techniques capable of identifying unusual patterns within large operational datasets. Chandola et al. categorized anomaly detection approaches into statistical, distance-based, density-based, and machine learning methods, emphasizing the growing importance of unsupervised approaches when labeled datasets are unavailable [57]. Among these techniques, Isolation Forest has emerged as one of the most widely adopted algorithms due to its computational efficiency and ability to isolate anomalous observations through recursive partitioning [58]. Extended Isolation Forest further improves robustness by overcoming limitations associated with axis-parallel partitioning while maintaining scalability for large-scale environments [59].",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 70,
+    "tag": "p",
+    "text": "Despite their success in operational monitoring and cybersecurity domains, the application of anomaly detection techniques to sustainability monitoring within CI/CD environments remains limited. Existing AI-driven solutions generally address workload prediction, resource optimization, or environmental measurement independently, leaving significant opportunities for integrating sustainability observability and intelligent decision-making within a unified framework.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 71,
+    "tag": "p",
+    "text": "Research Gap",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 72,
+    "tag": "p",
+    "text": "The literature demonstrates substantial progress in sustainable software engineering, Green DevOps, carbon accounting, CI/CD optimization, carbon-aware scheduling, Kubernetes resource management, runtime monitoring, and AI-driven operational optimization [47]–[60], [1]–[15], [39]–[44], [16]–[31]. Existing studies provide effective techniques for measuring environmental impact, reducing redundant CI/CD execution, forecasting workload demand, shifting workloads to lower-carbon periods, and improving operational efficiency. However, these contributions largely address isolated aspects of the sustainability challenge. Sustainability measurement frameworks often lack intelligent analysis capabilities; CI/CD optimization techniques focus primarily on performance and resource efficiency; carbon-aware scheduling approaches rarely integrate with broader software delivery processes; and AI-based optimization frameworks typically operate independently of sustainability monitoring and anomaly detection mechanisms.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 73,
+    "tag": "p",
+    "text": "Furthermore, although anomaly detection methods have demonstrated effectiveness in operational monitoring, their application to sustainability observability and environmental regression detection within CI/CD pipelines remains largely unexplored. Consequently, there remains a lack of an integrated sustainability-aware framework that combines fine-grained energy and carbon measurement, intelligent sustainability monitoring, anomaly detection, carbon-aware scheduling, predictive operational optimization, and autonomous decision support across the software delivery lifecycle. This unresolved integration challenge represents a significant gap in current research and motivates the development of a comprehensive sustainability-aware monitoring and optimization framework for CI/CD pipelines.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 74,
+    "tag": "p",
+    "text": "",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 75,
+    "tag": "p",
+    "text": "METHODOLOGY",
+    "style": [
+      "Heading1"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 76,
+    "tag": "p",
+    "text": " Research Framework Overview",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 77,
+    "tag": "p",
+    "text": "This research proposes an integrated Green DevOps framework that incorporates sustainability considerations across the Release, Deployment, Operation, and Monitoring phases of the software delivery lifecycle. The framework extends conventional DevOps practices by introducing carbon-aware decision-making, energy-efficient resource utilization, predictive operational optimization, and sustainability intelligence mechanisms [1]–[4]. Rather than treating sustainability as an isolated concern, environmental objectives are embedded throughout the CI/CD pipeline. The framework continuously collects operational and environmental information, enabling optimization decisions that balance software delivery performance, resource efficiency, carbon reduction, and SLA compliance. Fig. 1 illustrates the proposed integrated Green DevOps framework.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 78,
+    "tag": "p",
+    "text": "Integrated Green DevOps Architecture",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 79,
+    "tag": "p",
+    "text": "The architecture consists of four interconnected sustainability-aware layers. The Release phase optimizes build execution and scheduling. The Deployment phase performs carbon-aware deployment orchestration and energy estimation. The Operation phase provides predictive scaling and workload optimization within Kubernetes environments. The Monitoring phase acts as a sustainability intelligence layer responsible for environmental assessment and anomaly detection.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 80,
+    "tag": "p",
+    "text": "The framework processes source code changes, deployment telemetry, runtime metrics, historical sustainability records, and carbon-intensity information. Outputs generated at each stage are propagated to subsequent phases, enabling end-to-end sustainability optimization. The Monitoring phase additionally provides feedback to earlier stages, establishing a closed-loop sustainability improvement mechanism [3], [4], [16].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 81,
+    "tag": "p",
+    "text": "Release Phase Methodology",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 82,
+    "tag": "p",
+    "text": "The Release phase minimizes unnecessary CI/CD resource consumption through change-impact analysis and carbon-aware scheduling. Git-diff-based analysis identifies affected modules and determines whether selective build and test execution can be applied. Documentation-only changes bypass execution, while shared dependency modifications trigger broader validation procedures [5], [6].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 83,
+    "tag": "p",
+    "text": "Following impact analysis, environmental conditions are evaluated using carbon-intensity information. A machine-learning-based classifier analyzes temporal and historical carbon patterns to identify environmentally favorable execution windows [7]–[9]. Based on workload urgency and predicted carbon conditions, the release decision engine recommends either immediate execution or bounded delay scheduling.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 84,
+    "tag": "p",
+    "text": "This approach reduces redundant build activities while enabling carbon-aware release timing. The phase produces optimized artifacts, build metadata, and sustainability information that are transferred to the Deployment phase.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 85,
+    "tag": "p",
+    "text": "Deployment Phase Methodology",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 86,
+    "tag": "p",
+    "text": "The Deployment phase introduces sustainability-aware deployment orchestration. Deployment telemetry, including CPU, memory, and network utilization, is continuously collected and used to estimate deployment energy consumption through software-based power models [10], [12].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 87,
+    "tag": "p",
+    "text": "Real-time carbon-intensity information is integrated to quantify deployment-related emissions using sustainability accounting methodologies such as Software Carbon Intensity (SCI) [6], [21]. A deployment optimization engine evaluates deployment alternatives according to environmental impact, operational stability, and delivery requirements.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 88,
+    "tag": "p",
+    "text": "Carbon-aware scheduling mechanisms identify environmentally favorable deployment windows, while workload-shifting strategies allow non-critical deployment activities to be delayed within acceptable operational constraints [10], [13], [14]. The framework further evaluates alternative deployment strategies, including rolling, canary, and recreate approaches, selecting the option that best balances sustainability and reliability objectives [15].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 89,
+    "tag": "p",
+    "text": "The resulting deployment profiles, carbon estimates, and optimization recommendations are subsequently transferred to the Operation phase.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 90,
+    "tag": "p",
+    "text": "Operation Phase Methodology",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 91,
+    "tag": "p",
+    "text": "The Operation phase performs intelligent runtime optimization using predictive analytics, carbon-awareness, and workload prioritization. Runtime telemetry is continuously collected from Kubernetes environments, including CPU utilization, memory usage, request rates, active pod counts, and latency measurements [16], [17].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 92,
+    "tag": "p",
+    "text": "An LSTM-based workload prediction engine forecasts future resource demand using historical workload observations. The model captures temporal workload patterns and generates proactive scaling recommendations before resource saturation occurs [19], [20].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 93,
+    "tag": "p",
+    "text": "To incorporate environmental considerations, a Carbon Estimation Engine evaluates candidate scaling actions according to projected energy consumption and carbon emissions [16], [18]. Simultaneously, a Job Priority Engine classifies workloads as immediate or delayable according to execution urgency and SLA requirements.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 94,
+    "tag": "p",
+    "text": "Outputs from the prediction, carbon estimation, and job prioritization modules are integrated within a Runtime Decision Engine that evaluates alternative operational actions. The selected Kubernetes scaling recommendation aims to minimize environmental impact while maintaining application performance and SLA compliance [16], [17].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 95,
+    "tag": "p",
+    "text": "The Job Priority Engine classifies workloads as High, Medium, or Low priority based on job type, SLA requirements, predicted workload, carbon intensity, and Kubernetes resource utilization. High-priority workloads are executed immediately to maintain SLA compliance, while Medium-priority workloads may be delayed only if service quality is not affected. Low-priority workloads, such as batch processing and scheduled maintenance, are deferred during high-carbon periods and executed when lower-carbon conditions become available. The resulting priority classification and delay recommendation are forwarded to the Runtime Decision Engine for carbon-aware scaling and scheduling.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 96,
+    "tag": "p",
+    "text": "The phase outputs predictive scaling recommendations, workload classifications, and carbon-aware operational decisions for sustainability evaluation within the Monitoring phase.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 97,
+    "tag": "p",
+    "text": "Monitoring Phase Methodology",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 98,
+    "tag": "p",
+    "text": "The Monitoring phase functions as the sustainability intelligence component of the framework. Operational and environmental metrics generated throughout the Release, Deployment, and Operation phases are continuously collected and stored within a historical sustainability repository [21], [22].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 99,
+    "tag": "p",
+    "text": "Energy consumption and carbon emissions are estimated using established sustainability accounting methodologies, enabling continuous environmental assessment [6], [21]. Historical baseline models are then constructed to characterize normal sustainability behavior across Build, Test, and Deploy activities.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 100,
+    "tag": "p",
+    "text": "A statistical anomaly detection layer compares incoming observations against historical baselines to identify sustainability regressions and abnormal resource utilization patterns [23]. To enhance detection accuracy, the framework incorporates stage-specific Isolation Forest models trained using multidimensional sustainability indicators, including CPU utilization, execution duration, energy consumption, carbon emissions, and infrastructure overhead [24], [25].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 101,
+    "tag": "p",
+    "text": "The resulting sustainability indicators are aggregated into a Sustainability Health Score (SHS), which provides a unified representation of environmental performance and supports sustainability-oriented decision-making.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 102,
+    "tag": "p",
+    "text": "Sustainability Feedback Loop and End-to-End Data Flow",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 103,
+    "tag": "p",
+    "text": "The framework establishes a closed-loop sustainability feedback mechanism that connects all lifecycle stages. Source code commits initiate Release phase optimization, followed by carbon-aware deployment orchestration and predictive runtime operations. Sustainability information generated throughout these stages is consolidated within the Monitoring phase, where environmental impact assessment, baseline modeling, and anomaly detection are performed.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 104,
+    "tag": "p",
+    "text": "Monitoring outputs, including Sustainability Health Scores, carbon-efficiency assessments, and anomaly reports, are continuously fed back into Release, Deployment, and Operation activities. This enables future decisions regarding build scheduling, deployment timing, scaling policies, and workload prioritization to be informed by historical sustainability intelligence [3], [4], [16], [21].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 105,
+    "tag": "p",
+    "text": "Through the integration of selective execution, carbon-aware deployment, predictive scaling, workload prioritization, sustainability monitoring, and feedback-driven optimization, the proposed framework supports energy efficiency, carbon reduction, resource optimization, continuous improvement, and SLA compliance across the complete software delivery lifecycle.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 106,
+    "tag": "p",
+    "text": "",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 107,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 108,
+    "tag": "p",
+    "text": "Implementation",
+    "style": [
+      "Heading1"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 109,
+    "tag": "p",
+    "text": "Integrated Architecture Overview ",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 110,
+    "tag": "p",
+    "text": "The proposed Green DevOps framework is implemented as an integrated, continuous lifecycle architecture designed to embed sustainability metrics directly into the software delivery pipeline [19]. Deployed on an Oracle VM running an Ubuntu Linux environment with K3s Kubernetes orchestration [42], the system evaluates the environmental impact of software from the moment code is committed through to runtime execution and continuous observability. Across all stages, the framework relies on programmatic APIs, such as ElectricityMap and WattTime, to ingest live marginal carbon intensity signals (gCO2eq/kWh) [18], [24], [15], supported by deterministic historical heuristic models to ensure fail-safe operation during API outages [14].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 111,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": [
+      "rId8"
+    ]
+  },
+  {
+    "block": 112,
+    "tag": "p",
+    "text": "Release Stage: Selective CI/CD and Carbon-Aware Scheduling ",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 113,
+    "tag": "p",
+    "text": "The framework initiates at the Release stage, targeting the structural inefficiencies of redundant regression testing and carbon-blind build scheduling [2]. Implemented as a self-contained Python package invoked via a single Jenkins shell step or GitHub Actions workflow, the release module bypasses the need for complex inter-service network calls. Upon a code commit, the system performs a git-diff-based change-impact analysis. Changed files are mapped to their owning Maven modules via longest-prefix path matching, and the directly affected set is expanded using Maven’s -am (also-make) reactor semantics [3]. This selectively scopes builds and tests to only the necessary modules, drastically reducing computational overhead.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 114,
+    "tag": "p",
+    "text": "git:",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 115,
+    "tag": "p",
+    "text": "  base_ref: HEAD~1",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 116,
+    "tag": "p",
+    "text": "  head_ref: HEAD",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 117,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 118,
+    "tag": "p",
+    "text": "shared_modules:",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 119,
+    "tag": "p",
+    "text": "  - common-lib",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 120,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 121,
+    "tag": "p",
+    "text": "rules:",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 122,
+    "tag": "p",
+    "text": "  skip_non_code_changes: true",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 123,
+    "tag": "p",
+    "text": "  global_trigger_paths:",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 124,
+    "tag": "p",
+    "text": "    - pom.xml",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 125,
+    "tag": "p",
+    "text": "    - .mvn/",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 126,
+    "tag": "p",
+    "text": "    - mvnw",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 127,
+    "tag": "p",
+    "text": "    - mvnw.cmd",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 128,
+    "tag": "p",
+    "text": "    - settings.xml",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 129,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 130,
+    "tag": "p",
+    "text": "maven:",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 131,
+    "tag": "p",
+    "text": "  executable: mvn",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 132,
+    "tag": "p",
+    "text": "  also_make: true",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 133,
+    "tag": "p",
+    "text": "  build_goals: [clean, install]",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 134,
+    "tag": "p",
+    "text": "  test_goals: [test]",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 135,
+    "tag": "p",
+    "text": "  run_build: true",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 136,
+    "tag": "p",
+    "text": "  run_tests: true",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 137,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 138,
+    "tag": "p",
+    "text": "carbon_aware:",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 139,
+    "tag": "p",
+    "text": "  provider: mock",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 140,
+    "tag": "p",
+    "text": "  electricity_maps_zone: LK",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 141,
+    "tag": "p",
+    "text": "  min_history_hours: 3",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 142,
+    "tag": "p",
+    "text": "  backfill_on_empty: true",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 143,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 144,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 145,
+    "tag": "p",
+    "text": "Once the build scope is defined, a supervised machine learning classifier evaluates whether to execute the build immediately or delay it. A LightGBM model, trained on hourly national-grid carbon-intensity data, processes a 39-feature vector (incorporating lag features and rolling-window statistics) to identify optimal \"green windows\" [9]. If the current grid is classified as high-carbon, the system queries a short-horizon Prophet-based forecaster to find a lower-carbon hour within a bounded 8-hour maximum delay [5], [13]. If a greener window is found, non-urgent builds are shifted; otherwise, execution proceeds immediately, ensuring developer velocity is not indefinitely bottlenecked.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 146,
+    "tag": "p",
+    "text": "Deployment Stage: Agentic Orchestration and Strategy Selection ",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 147,
+    "tag": "p",
+    "text": "Following a successful build, the software transitions to the Deployment stage, where the framework employs an Artificial Intelligence (AI) agent utilizing the Reasoning and Acting (ReAct) paradigm to orchestrate the release [28], [29], [32]. For every pending deployment, the AI agent evaluates current grid conditions, system load, and historical strategy performance, formulating its decision logic as a Markov Decision Process (MDP) [19].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 148,
+    "tag": "p",
+    "text": "[Placeholder: Figure 2 - ReAct AI Agent Decision Loop for Deployment Strategies]",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 149,
+    "tag": "p",
+    "text": "The deployment engine dynamically selects between execution strategies—specifically Recreate, Rolling, and Canary updates—based on their distinct infrastructure overlap multipliers [30]. For instance, the agent may prioritize a Canary deployment to minimize initial load spikes during medium-carbon periods, while favoring a zero-overhead Recreate strategy during low-carbon maintenance windows [31]. To enforce these decisions at the infrastructure level, the framework utilizes native Kubernetes mechanisms such as Node Affinity, Taints, and Tolerations, ensuring that energy-efficient infrastructure is reserved for critical workloads and deployments are routed to the greenest available nodes [18].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 150,
+    "tag": "p",
+    "text": "Operation Stage: Predictive Scaling and Job Prioritization ",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 151,
+    "tag": "p",
+    "text": "Once the application is deployed and operational, the framework shifts from traditional reactive autoscaling to proactive, predictive resource management. A Long Short-Term Memory (LSTM) neural network architecture is deployed to forecast future Kubernetes workload demands (e.g., CPU and memory utilization) over 30-second horizons based on historical runtime telemetry [41].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 152,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": [
+      "rId9"
+    ]
+  },
+  {
+    "block": 153,
+    "tag": "p",
+    "text": "Because cloud-native applications frequently execute workloads with varying urgency, a Job Priority Engine operates concurrently with the predictive model to classify incoming workloads into Immediate Jobs (SLA-sensitive, real-time tasks) and Delayable Jobs (flexible background operations) [39], [40]. The centralized Runtime Decision Engine integrates the forecasted demand from the LSTM model, the live carbon-intensity estimates, and the workload priority classifications. It evaluates multiple candidate scaling strategies to output optimal Kubernetes scaling recommendations (Scale Up, Scale Down, Maintain, or Delay Jobs). This multi-objective optimization ensures that carbon emissions are minimized through strategic deferment of non-critical jobs while strictly preserving Service-Level Agreement (SLA) compliance and application performance for user-facing tasks.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 154,
+    "tag": "p",
+    "text": "Monitor Stage: Sustainability Intelligence and Anomaly Detection ",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 155,
+    "tag": "p",
+    "text": "The entire software delivery and operational lifecycle is continuously observed by the Monitor component, which acts as a centralized sustainability intelligence layer [49]. Because direct hardware power measurement is impractical in virtualized cloud environments, the framework utilizes a non-invasive, CPU-based estimation model to derive power consumption from resource utilization metrics [60]. These energy estimates are subsequently multiplied by the live regional carbon intensity (CI) and the data center's Power Usage Effectiveness (PUE) to calculate exact carbon emissions, aligning with the standardized Software Carbon Intensity (SCI) specification [52], [53].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 156,
+    "tag": "p",
+    "text": "[Placeholder: Figure 4 - Multidimensional Anomaly Detection Process]",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 157,
+    "tag": "p",
+    "text": "To move beyond basic measurement into active sustainability intelligence, the framework implements a hybrid anomaly detection system. While standard statistical Z-scores monitor basic deviations, the framework addresses complex, multidimensional sustainability regressions by deploying stage-specific, unsupervised Extended Isolation Forest machine learning models [57], [58], [59]. Separate models are trained independently for the Build, Test, and Deploy stages, analyzing feature vectors that include workload duration, infrastructure overhead, and estimated carbon emissions. Finally, these insights are aggregated into a unified Sustainability Health Score (SHS) ranging from 0 to 100. This score, alongside predictive metrics and anomaly alerts, is visualized through integrated Prometheus and Grafana dashboards, providing development and operations teams with intuitive, real-time transparency into their environmental footprint [31], [42].",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 158,
+    "tag": "p",
+    "text": "[Placeholder: Screenshot 1 - Grafana Sustainability Analytics and SHS Dashboard]",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 159,
+    "tag": "p",
+    "text": "Results and Evaluation",
+    "style": [
+      "Heading1"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 160,
+    "tag": "p",
+    "text": "Evaluation Overview",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 161,
+    "tag": "p",
+    "text": "The proposed sustainability-aware software delivery framework was evaluated through experiments focusing on CI/CD optimization, workload prediction, and sustainability monitoring. The evaluation utilized real Jenkins pipeline executions and operational workload traces to assess the effectiveness of the framework’s decision-support capabilities across different stages of the software delivery lifecycle.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 162,
+    "tag": "p",
+    "text": "The evaluation focused on three primary objectives. First, the effectiveness of sustainability-aware release optimization was assessed through carbon-intensity classification and selective build and test execution. Second, workload prediction performance was evaluated to determine the feasibility of proactive runtime optimization within Kubernetes environments. Third, sustainability monitoring and anomaly detection mechanisms were evaluated using historical execution data collected from CI/CD activities. Together, these experiments provide insight into the framework’s ability to improve operational efficiency while supporting sustainability-aware decision making.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 163,
+    "tag": "p",
+    "text": "CI/CD Optimization Performance",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 164,
+    "tag": "p",
+    "text": "Carbon-Intensity Classification",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 165,
+    "tag": "p",
+    "text": "The carbon-intensity classification model was evaluated using five-fold time-series cross-validation. The tuned LightGBM classifier achieved a macro F1-score of 0.9787 and an approximate recall of 98%, substantially outperforming all baseline models. These results indicate that the engineered feature set provides a strong predictive signal for identifying carbon-intensity conditions relevant to sustainability-aware release planning.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 166,
+    "tag": "p",
+    "text": "Feature attribution analysis using SHAP revealed that approximately 96.2% of total feature importance originated from lag and rolling-window features. This observation indicates that short-term temporal patterns are highly informative for carbon-intensity prediction and demonstrates the suitability of time-series learning approaches for environmental decision support.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 167,
+    "tag": "p",
+    "text": "A supplementary Prophet-based forecasting model was evaluated to support longer-term planning decisions. The forecasting layer achieved a Mean Absolute Percentage Error (MAPE) of approximately 51%, indicating considerably lower predictive accuracy than the classification model. While the forecasting component remains useful for providing look-ahead estimates, the results suggest that further refinement is necessary to improve long-term predictive performance.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 168,
+    "tag": "p",
+    "text": "Build and Test Optimization",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 169,
+    "tag": "p",
+    "text": "The effectiveness of the release optimization mechanism was evaluated using ten paired Jenkins benchmark executions consisting of optimized and unoptimized pipeline runs executed on identical commits.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 170,
+    "tag": "p",
+    "text": "The optimized pipeline achieved a mean reduction of 47.7% in total wall-clock execution time, with a median reduction of 39.9%. When the analysis was restricted to the build and test phases directly controlled by the optimization logic, average savings increased to 66.1%, with a median reduction of 82.8%.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 171,
+    "tag": "p",
+    "text": "The magnitude of improvement varied according to change scope. Documentation-only and no-operation commits achieved average execution-time reductions of 92.4%, while single-module and two-module changes achieved reductions of 60.4% and 41.2%, respectively. These findings demonstrate that selective execution becomes increasingly beneficial as the affected code scope decreases.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 172,
+    "tag": "p",
+    "text": "Across all benchmark executions, only 13 of 136 possible test executions were performed, corresponding to a test-skip rate of 90.4%. Despite this substantial reduction in executed tests, the optimization mechanism introduced an average analysis overhead of only 1.02 seconds per execution, representing approximately 1.2% of total optimized pipeline duration.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 173,
+    "tag": "p",
+    "text": "Overall, the results demonstrate that sustainability-aware release optimization can significantly reduce unnecessary CI/CD activity while maintaining minimal computational overhead.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 174,
+    "tag": "p",
+    "text": "Runtime Workload Prediction and Operational Intelligence",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 175,
+    "tag": "p",
+    "text": "The runtime optimization component was evaluated using the Bitbrains fastStorage dataset to assess the effectiveness of the workload prediction engine. Accurate workload forecasting is a critical prerequisite for proactive scaling, workload prioritization, and sustainability-aware operational decision making.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 176,
+    "tag": "p",
+    "text": "The LSTM-based prediction model achieved a coefficient of determination (R²) of 0.946 and a Mean Absolute Percentage Error (MAPE) of 3.28% when evaluated using unseen test data. The high R² value indicates that the model successfully captured the majority of workload variability present within the dataset, while the low MAPE confirms strong predictive accuracy.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 177,
+    "tag": "p",
+    "text": "The obtained forecasting performance demonstrates the suitability of recurrent neural network architectures for short-term workload prediction within cloud-native environments. Accurate prediction enables operational decisions to be made proactively rather than reactively, providing opportunities for improved resource utilization and sustainability-aware optimization.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 178,
+    "tag": "p",
+    "text": "The Runtime Decision Engine successfully generated operational recommendations including scale-up, scale-down, workload maintenance, and delay actions. These recommendations were derived from predicted workload demand, carbon-impact assessments, and workload-priority classifications. The results demonstrate the feasibility of combining predictive analytics with sustainability-aware decision support to guide runtime operations.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 179,
+    "tag": "p",
+    "text": "A functional comparison with traditional Kubernetes Horizontal Pod Autoscaling (HPA) further highlights the additional capabilities introduced by the framework. Unlike conventional reactive scaling approaches, the proposed framework incorporates workload forecasting, carbon awareness, workload prioritization, and SLA-aware decision making. These capabilities provide a foundation for more intelligent and environmentally conscious runtime management.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 180,
+    "tag": "p",
+    "text": "Sustainability Monitoring and Anomaly Detection",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 181,
+    "tag": "p",
+    "text": "The sustainability monitoring framework was evaluated using data collected from 21 real Jenkins pipeline executions, producing 63 stage-level execution records across Build, Test, and Deploy activities. The dataset included execution duration, processor utilization, infrastructure overhead, energy consumption, carbon emissions, carbon intensity, execution status, and timestamp information.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 182,
+    "tag": "p",
+    "text": "Sustainability Baseline Construction",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 183,
+    "tag": "p",
+    "text": "Analysis of historical execution records revealed distinct sustainability characteristics across individual CI/CD stages. The Build stage exhibited the lowest overall sustainability impact, while the Deploy stage demonstrated the highest average CPU utilization, energy consumption, and carbon emissions. The Test stage exhibited intermediate characteristics.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 184,
+    "tag": "p",
+    "text": "These observations validate the decision to maintain stage-specific sustainability baselines rather than applying a single global baseline across all pipeline activities. The results indicate that sustainability behaviour varies considerably between CI/CD stages and therefore requires stage-aware monitoring and analysis strategies.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 185,
+    "tag": "p",
+    "text": "Across the monitoring period, the framework recorded a total estimated energy consumption of 0.001163 kWh and total carbon emissions of 0.000502 kgCO₂e. The successful collection and analysis of these measurements demonstrate the practicality of integrating sustainability accounting mechanisms directly into software delivery workflows.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 186,
+    "tag": "p",
+    "text": "Statistical Anomaly Detection",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 187,
+    "tag": "p",
+    "text": "The statistical anomaly detection layer utilized historical baseline values, standard deviation analysis, and Z-score calculations to identify abnormal sustainability behaviour.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 188,
+    "tag": "p",
+    "text": "The analysis identified eight anomalous executions across the monitored dataset. Four anomalies were detected within Build activities, three within Test activities, and one within Deploy activities. The majority of executions remained within the expected operational range defined by the baseline model, suggesting relatively stable sustainability characteristics across the monitored environment.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 189,
+    "tag": "p",
+    "text": "The statistical detection mechanism proved effective for identifying substantial deviations from normal behaviour while providing transparent and interpretable explanations for detected anomalies.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 190,
+    "tag": "p",
+    "text": "Isolation Forest-Based Detection",
+    "style": [
+      "Heading3"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 191,
+    "tag": "p",
+    "text": "To complement baseline-driven analysis, an unsupervised machine learning layer based on the Isolation Forest algorithm was implemented. The model evaluated multidimensional sustainability feature vectors consisting of processor utilization, execution duration, infrastructure overhead, energy consumption, carbon emissions, and carbon intensity.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 192,
+    "tag": "p",
+    "text": "The Isolation Forest model identified six anomalous executions distributed across the monitored pipeline stages. Unlike the statistical approach, the machine learning model evaluated relationships among multiple sustainability indicators simultaneously, enabling the identification of more complex behavioural patterns.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 193,
+    "tag": "p",
+    "text": "The results demonstrate the feasibility of applying unsupervised anomaly detection techniques within sustainability monitoring environments. Since the approach does not require labelled anomaly datasets, it is particularly suitable for real-world DevOps settings where sustainability anomalies are rarely documented explicitly.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 194,
+    "tag": "p",
+    "text": "Integrated Findings",
+    "style": [
+      "Heading2"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 195,
+    "tag": "p",
+    "text": "Several important findings emerged from the evaluation.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 196,
+    "tag": "p",
+    "text": "First, sustainability-aware CI/CD optimization can substantially reduce unnecessary computational activity. The Release component achieved significant reductions in execution time while maintaining minimal operational overhead, demonstrating the effectiveness of selective execution strategies for improving software delivery efficiency.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 197,
+    "tag": "p",
+    "text": "Second, accurate workload forecasting can provide a reliable foundation for proactive operational decision making. The high predictive accuracy achieved by the workload prediction engine indicates that future resource demand can be estimated effectively, enabling more intelligent runtime optimization strategies.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 198,
+    "tag": "p",
+    "text": "Third, sustainability characteristics differ significantly across CI/CD stages. The monitoring results revealed measurable variations in resource utilization, energy consumption, and carbon emissions between Build, Test, and Deploy activities, supporting the need for stage-specific sustainability analysis.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 199,
+    "tag": "p",
+    "text": "Finally, both statistical and machine-learning-based anomaly detection approaches proved capable of identifying abnormal sustainability behaviour. While statistical methods provided transparent and interpretable detections, the Isolation Forest model demonstrated stronger capability for identifying multidimensional sustainability anomalies.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 200,
+    "tag": "p",
+    "text": "Collectively, these results demonstrate that sustainability monitoring, predictive analytics, and CI/CD optimization can be effectively integrated to support environmentally responsible software delivery practices. The findings provide evidence that sustainability-aware decision support can be incorporated into software engineering workflows without compromising operational effectiveness.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 201,
+    "tag": "p",
+    "text": "",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 202,
+    "tag": "p",
+    "text": " DISCUSSION",
+    "style": [
+      "Heading1"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 203,
+    "tag": "p",
+    "text": "The findings of this research demonstrate that sustainability can be effectively integrated throughout the software delivery lifecycle by combining Release, Deployment, Operation, and Monitoring activities within a unified Green DevOps framework. Unlike traditional DevOps approaches that primarily emphasize delivery speed and operational efficiency, the proposed framework incorporates environmental sustainability as a continuous optimization objective. This enables software delivery decisions to consider energy consumption, carbon emissions, resource utilization, and service quality simultaneously.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 204,
+    "tag": "p",
+    "text": "The Release phase highlights the importance of reducing unnecessary computational activities during CI/CD execution. Through selective build and test execution combined with carbon-aware scheduling, the framework minimizes redundant resource consumption while maintaining delivery effectiveness. These results indicate that sustainability improvements can be introduced at the earliest stages of software delivery without disrupting development workflows.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 205,
+    "tag": "p",
+    "text": "Similarly, the Deployment phase demonstrates that deployment activities represent a valuable opportunity for environmental optimization. By incorporating energy estimation and carbon-aware scheduling into deployment orchestration, the framework enables organizations to align deployment execution with environmentally favorable conditions. This approach extends sustainability considerations beyond software development and into infrastructure management practices.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 206,
+    "tag": "p",
+    "text": "The Operation phase further illustrates the benefits of predictive intelligence in sustainable cloud-native environments. The integration of workload forecasting, carbon estimation, and workload prioritization enables proactive scaling decisions that balance environmental objectives with application performance requirements. Unlike traditional reactive resource management approaches, the proposed framework supports more efficient resource utilization while maintaining SLA compliance.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 207,
+    "tag": "p",
+    "text": "A significant contribution of this research is the Monitoring phase, which transforms sustainability monitoring from a passive reporting mechanism into an active decision-support system. By combining sustainability measurement, baseline modeling, and anomaly detection, the framework provides continuous visibility into environmental performance. This capability enables the early identification of sustainability regressions and supports data-driven optimization across the software delivery lifecycle.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 208,
+    "tag": "p",
+    "text": "The primary strength of the proposed approach lies in the integration of all four phases within a single sustainability-aware architecture. Existing solutions often focus on isolated optimization techniques, such as carbon-aware scheduling or energy-efficient operations. In contrast, the proposed framework establishes a continuous sustainability feedback loop in which monitoring insights influence future release, deployment, and operational decisions. This closed-loop mechanism supports continuous improvement and long-term environmental optimization.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 209,
+    "tag": "p",
+    "text": "Despite these contributions, several limitations should be acknowledged. Energy consumption estimates rely on resource-utilization-based models rather than direct hardware measurements, which may introduce estimation errors. Carbon calculations are dependent on the availability and accuracy of external carbon-intensity data sources. Furthermore, predictive and anomaly detection models may require retraining as workload characteristics evolve over time. Additional validation in large-scale industrial environments would further strengthen the generalizability of the framework.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 210,
+    "tag": "p",
+    "text": "Future research may explore advanced carbon forecasting techniques, reinforcement learning-based optimization, and additional sustainability indicators such as embodied carbon and infrastructure lifecycle impacts. Evaluating the framework in diverse cloud environments and production-scale systems would also provide deeper insights into its long-term effectiveness.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 211,
+    "tag": "p",
+    "text": "Overall, the results suggest that integrating sustainability-aware decision-making across Release, Deployment, Operation, and Monitoring phases can reduce environmental impact while preserving the performance, scalability, and reliability requirements of modern software delivery systems. The proposed Green DevOps framework therefore provides a practical foundation for environmentally responsible and continuously optimized software engineering practices.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 212,
+    "tag": "p",
+    "text": "",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 213,
+    "tag": "p",
+    "text": "References",
+    "style": [
+      "Heading1"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 214,
+    "tag": "p",
+    "text": "[1] G. Rothermel and M. J. Harrold, \"Analyzing regression test selection techniques,\" IEEE Trans. Softw. Eng., vol. 22, no. 8, pp. 529–551, Aug. 1996.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 215,
+    "tag": "p",
+    "text": "[2] S. Yoo and M. Harman, \"Regression testing minimization, selection and prioritization: a survey,\" Softw. Test. Verif. Reliab., vol. 22, no. 2, pp. 67–120, 2012.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 216,
+    "tag": "p",
+    "text": "[3] Apache Software Foundation, \"Maven: Guide to Working with Multiple Modules.\" [Online]. Available: https://maven.apache.org/guides/mini/guide-multiple-modules.html",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 217,
+    "tag": "p",
+    "text": "[4] A. Radovanović et al., \"Carbon-aware computing for datacenters,\" IEEE Trans. Power Syst., vol. 38, no. 2, pp. 1270–1280, 2023.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 218,
+    "tag": "p",
+    "text": "[5] P. Wiesner, I. Behnke, D. Scheinert, K. Gontarska, and L. Thamsen, \"Let's wait awhile: How temporal workload shifting can reduce carbon emissions in the cloud,\" in Proc. 22nd Int. Middleware Conf. (Middleware '21), New York, NY, USA, 2021, pp. 260–272.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 219,
+    "tag": "p",
+    "text": "[6] Green Software Foundation, \"Software Carbon Intensity (SCI) Specification,\" ISO/IEC 21031:2024. [Online]. Available: https://sci.greensoftware.foundation/",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 220,
+    "tag": "p",
+    "text": "[7] C. Bergmeir and J. M. Benítez, \"On the use of cross-validation for time series predictor evaluation,\" Inf. Sci., vol. 191, pp. 192–213, 2012.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 221,
+    "tag": "p",
+    "text": "[8] H. He and E. A. Garcia, \"Learning from imbalanced data,\" IEEE Trans. Knowl. Data Eng., vol. 21, no. 9, pp. 1263–1284, Sep. 2009.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 222,
+    "tag": "p",
+    "text": "[9] G. Ke et al., \"LightGBM: A highly efficient gradient boosting decision tree,\" in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 30, 2017, pp. 3146–3154.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 223,
+    "tag": "p",
+    "text": "[10] T. Chen and C. Guestrin, \"XGBoost: A scalable tree boosting system,\" in Proc. 22nd ACM SIGKDD Int. Conf. Knowl. Discov. Data Min. (KDD), San Francisco, CA, USA, 2016, pp. 785–794.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 224,
+    "tag": "p",
+    "text": "[11] S. M. Lundberg and S.-I. Lee, \"A unified approach to interpreting model predictions,\" in Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 30, 2017, pp. 4765–4774.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 225,
+    "tag": "p",
+    "text": "[12] T. Akiba, S. Sano, T. Yanase, T. Ohta, and M. Koyama, \"Optuna: A next-generation hyperparameter optimization framework,\" in Proc. 25th ACM SIGKDD Int. Conf. Knowl. Discov. Data Min. (KDD), Anchorage, AK, USA, 2019, pp. 2623–2631.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 226,
+    "tag": "p",
+    "text": "[13] S. J. Taylor and B. Letham, \"Forecasting at scale,\" Amer. Statist., vol. 72, no. 1, pp. 37–45, 2018.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 227,
+    "tag": "p",
+    "text": "[14] Ceylon Electricity Board (CEB), Sri Lanka, system generation statistics. [Online]. Available: https://www.ceb.lk/",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 228,
+    "tag": "p",
+    "text": "[15] Electricity Maps, \"Electricity Maps API Documentation.\" [Online]. Available: https://www.electricitymaps.com/",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 229,
+    "tag": "p",
+    "text": "[16] L. P. Rongali, \"Green DevOps Metrics for Utility Operations,\" Green DevOps Metrics for Utility Operations, 2025. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 230,
+    "tag": "p",
+    "text": "[17] Rand Alamer and Ohoud Alharbi, \"Sustainable Devops: A Systematic Literature Review on Reducing Energy Footprint in Continuous Integration and Deployment (Ci/Cd) Pipelines,\" International Journal of Computations, Information and Manufacturing, pp. 24-32, 2025. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 231,
+    "tag": "p",
+    "text": "[18] N. R. Pinnapareddy, \"Carbon Conscious Scheduling in Kubernetes to Cut Energy Use and Emissions,\" International Journal of Computational and Experimental , vol. II, no. 3, pp. 6288-6305, 2025. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 232,
+    "tag": "p",
+    "text": "[19] M. Muppala and Harish Chamarthi, \"AI Integration for Sustainable DevOps & Cloud Interdisciplinary: Framework Optimized Resource Management and Carbon Efficiency,\" International Conference on Sustainable Communication Networks, pp. 1836-1841, 2025. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 233,
+    "tag": "p",
+    "text": "[20] Darwish Ahmad Herati, Maria Clara Aderne and Fabio Kon, \"The road to Sustainable DevOps,\" IME- University of S˜ao Paulo, pp. 1-4, 2025. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 234,
+    "tag": "p",
+    "text": "[21] R. Verdecchia, P. Lago, C. Ebert and C. De Vries, \"Green IT and Green Software,\" IEEE Software, 2021. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 235,
+    "tag": "p",
+    "text": "[22] Y. Zou, T. A. Ghaleb and D. A. d. Costa, \"The Promise and Reality of Continuous Integration Caching: An Empirical Study of Travis CI Builds,\" arXiv, 2026. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 236,
+    "tag": "p",
+    "text": "[23] A. Hitesh, \"Sustainable Cloud Engineering: Optimizing Resources for Green DevOps,\" International Journal of Artificial Intelligence, Data Science, and Machine Learning, vol. 4, no. 4, pp. 36-46, 2023. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 237,
+    "tag": "p",
+    "text": "[24] Jesse Dodge, Taylor Prewitt, Remi Tachet Des Combes, Erika Odmark, Roy Schwartz, Emma Strubell, Alexandra Sasha Luccioni, Noah A. Smith and Nicole DeCario, \"Measuring the Carbon Intensity of AI in Cloud Instances,\" 2022. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 238,
+    "tag": "p",
+    "text": "[25] Jacopo Soldani, Roberto Amadini, Antonio Brogi, Stefano Forti, Saverio Giallorenzo, Pierluigi Plebani, Monica Vitali and Gianluigi Zavattaro, \"Towards Sustainable Deployment of Microservices over the Cloud-Edge Continuum, with FREEDA,\" Towards Sustainable Deployment of Microservices over the Cloud-Edge Continuum, with FREEDA, pp. 1-5. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 239,
+    "tag": "p",
+    "text": "[26] J. Humble and D. Farley, \"Continuous delivery : reliable software releases through build, test, and deployment automation,\" Continuous delivery : reliable software releases through build, test, and deployment automation , 2010. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 240,
+    "tag": "p",
+    "text": "[27] Emma Strubell, Ananya Ganesh and Andrew McCallum, \"Energy and Policy Considerations for Deep Learning in NLP,\" Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics,, pp. 3645-3650, 2019. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 241,
+    "tag": "p",
+    "text": "[28] L. L. J. W. K. L. E. A. F. A. Z. L. C. L. M. Zhengyuan Yang, \"Mm-react: Prompting chatgpt for multimodal reasoning and action.,\" Mm-react: Prompting chatgpt for multimodal reasoning and action.. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 242,
+    "tag": "p",
+    "text": "[29] J. Z. D. Y. N. D. I. S. K. N. a. Y. C. Shunyu Yao, \" React: Synergizing reasoning and acting in language models,\" arXiv preprint arXiv, 2022. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 243,
+    "tag": "p",
+    "text": "[30] P. C. Jakku, \"Resilient Kubernetes Deployment Strategies for Microservices: A Practical Reliability Model,\" International Journal For Multidisciplinary Research, 2021. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 244,
+    "tag": "p",
+    "text": "[31] A. Malhotra, A. Elsayed, R. Torres and S. Venkatraman, \"Evaluate Canary Deployment Techniques Using Kubernetes, Istio, and Liquibase for Cloud Native Enterprise Applications to Achieve Zero Downtime for Continuous Deployments,\" IEEE Access, 2024, 2024. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 245,
+    "tag": "p",
+    "text": "[31] S. S. Poojary, S. Kamble and D. G. S. Mamatha, \"A Scalable DevOps Framework Using Kubernetes-Orchestrated Microservices for Cloud-Native Infrastructure,\" 2025 9th International Conference on Computational System and Information Technology for Sustainable Solutions (CSITSS) , 2025. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 246,
+    "tag": "p",
+    "text": "[32] 1. J. Z. D. Y. N. D. I. S. K. N. Y. C. Shunyu Yao∗*, \"SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS,\" ICLR 2023, pp. 1-33, 2023. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 247,
+    "tag": "p",
+    "text": "[33] Nitin Kumar and Dr Neeraj Sharma, \"A Comprehensive Study forGreen Computing-Based DevOps Process inAgile Delivery Model,\" 2012 IJFANS, vol. 11, no. 11, pp. 2820-2826, 2022. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 248,
+    "tag": "p",
+    "text": "[34] A. @. M. LlamaTeam, \"The Llama 3Herd of Models\". ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 249,
+    "tag": "p",
+    "text": "[35] 2. J. G. U. H. Q. L. C. L. L.-M. M. David Patterson1, \"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink,\" 2025. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 250,
+    "tag": "p",
+    "text": "[36] R. B. D. A. H. E. A. R. A. S. Arora, \"On the Opportunities and Risks of Foundation Models,\" Center for Research on Foundation Models, 2022. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 251,
+    "tag": "p",
+    "text": "[37] L. C. D. F. J. S. A. v. D. Tim Yarally∗, \"Uncovering Energy-Efficient Practices in Deep Learning Training: Preliminary Steps Towards Green AI,\" 2023 IEEE/ACM 2nd International Conference on AI Engineering – Software Engineering for AI (CAIN), 2023. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 252,
+    "tag": "p",
+    "text": "[38] J. D. N. A. S. A. O. E. ROY SCHWARTZ, \"Green AI,\" COMMUNICATIONS OF THE ACM, vol. 63, no. 12, December 2020. ",
+    "style": [
+      "NormalWeb"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 253,
+    "tag": "p",
+    "text": "[39] “Carbon Conscious Scheduling in Kubernetes to Cut Energy Use and Emissions.”",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 254,
+    "tag": "p",
+    "text": "[40] “Carbon-Aware Resource Allocation: Dynamically Balancing Compute Loads with Renewable Energy Availability.”",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 255,
+    "tag": "p",
+    "text": "[41] H. Chamarthi and M. Muppala, “AI Integration for Sustainable DevOps & Cloud: Interdisciplinary Framework Optimized Resource Management and Carbon Efficiency,” 2025.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 256,
+    "tag": "p",
+    "text": "[42] S. S. Poojary, S. Kamble, and G. S. Mamatha, “A Scalable DevOps Framework Using Kubernetes-Orchestrated Microservices for Cloud-Native Infrastructure,” 2025.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 257,
+    "tag": "p",
+    "text": "[43] “Sustainable Cloud Engineering: Optimizing Resources for Green DevOps.”",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 258,
+    "tag": "p",
+    "text": "[44] “Rethinking Computing Systems in the Era of Climate Crisis: A Call for a Sustainable Computing Continuum.”",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 259,
+    "tag": "p",
+    "text": "[45] “Sustainable DevOps: A Systematic Literature Review on Reducing Energy Footprint in CI/CD Pipelines.”",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 260,
+    "tag": "p",
+    "text": "[46] A. Aneggi, X. Li, and A. Janes, “PPTAMη: Energy Aware CI/CD Pipeline for Container Based Applications.”",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 261,
+    "tag": "p",
+    "text": "[47] Becker, C., Chitchyan, R., Duboc, L., Easterbrook, S., Mahaux, M., Penzenstadler, B., Seyff, N., and Venters, C. C., “The Karlskrona Manifesto for Sustainability Design,” arXiv preprint arXiv:1410.6968, 2014.",
+    "style": [
+      "FirstParagraph"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 262,
+    "tag": "p",
+    "text": "[48] Naumann, S., Dick, M., Kern, E., and Johann, T., “The GREENSOFT Model: A Reference Model for Green and Sustainable Software and its Engineering,” Sustainable Computing: Informatics and Systems, vol. 1, no. 4, pp. 294–304, 2011.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 263,
+    "tag": "p",
+    "text": "[49] Ailane, M. T., Rubner, C., and Rausch, A., “Green DevOps: A Strategic Framework for Sustainable Software Development,” in Proceedings of the International Conference on Information and Communication Technology for Sustainability (ICT4S), 2023.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 264,
+    "tag": "p",
+    "text": "[50] Condori-Fernandez, N., Lago, P., and colleagues, “SusDevOps: Operationalizing Sustainability in DevOps Processes,” in Proceedings of the International Workshop on Requirements Engineering for Sustainable Systems (RE4SuSy), 2022.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 265,
+    "tag": "p",
+    "text": "[51] Penzenstadler, B., Bauer, V., Calero, C., and Franch, X., “Sustainability in Software Engineering: A Systematic Literature Review,” in Proceedings of the International Conference on Evaluation and Assessment in Software Engineering (EASE), 2012.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 266,
+    "tag": "p",
+    "text": "[52] Green Software Foundation, “Software Carbon Intensity (SCI) Specification,” Green Software Foundation Standard, Version 1.0, 2023.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 267,
+    "tag": "p",
+    "text": "[53] Thoughtworks, “Cloud Carbon Footprint Methodology Documentation,” Cloud Carbon Footprint Project Documentation, 2023.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 268,
+    "tag": "p",
+    "text": "[54] Muhammad Zuhaib, “Towards Sustainable DevOps: A Decision-Making Framework for Sustainable Software Delivery,” Journal of Systems and Software, 2023.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 269,
+    "tag": "p",
+    "text": "[55] Lannelongue, L., Grealey, J., and Inouye, M., “Carbon-Aware Computing for Continuous Integration and Continuous Deployment Pipelines,” in Proceedings of ICT4S, 2023.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 270,
+    "tag": "p",
+    "text": "[56] Courboulay, V., and colleagues, “Software Frugality in an Accelerating World: The Case of Continuous Integration,” IEEE Software, vol. 39, no. 1, pp. 47–53, 2022.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 271,
+    "tag": "p",
+    "text": "[57] Chandola, V., Banerjee, A., and Kumar, V., “Anomaly Detection: A Survey,” ACM Computing Surveys, vol. 41, no. 3, Article 15, 2009.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 272,
+    "tag": "p",
+    "text": "[58] Liu, F. T., Ting, K. M., and Zhou, Z.-H., “Isolation Forest,” in Proceedings of the IEEE International Conference on Data Mining (ICDM), Pisa, Italy, 2008, pp. 413–422.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 273,
+    "tag": "p",
+    "text": "[59] Hariri, S., Carrasco Kind, M., and Brunner, R. J., “Extended Isolation Forest,” IEEE Transactions on Knowledge and Data Engineering, vol. 33, no. 4, pp. 1479–1489, 2021.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 274,
+    "tag": "p",
+    "text": "[60] Beloglazov, A., and Buyya, R., “Energy Efficient Resource Management in Virtualized Cloud Data Centers,” in Proceedings of the IEEE/ACM International Conference on Cluster, Cloud and Grid Computing (CCGrid), 2010.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 275,
+    "tag": "p",
+    "text": "[61] Verma, A., Pedrosa, L., Korupolu, M., Oppenheimer, D., Tune, E., and Wilkes, J., “Large-Scale Cluster Management at Google with Borg,” in Proceedings of the European Conference on Computer Systems (EuroSys), 2015.",
+    "style": [
+      "BodyText"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 276,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 277,
+    "tag": "p",
+    "text": "",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 278,
+    "tag": "p",
+    "text": "Threats to Validity",
+    "style": [
+      "Heading1"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 279,
+    "tag": "p",
+    "text": "Internal validity may be affected by estimation errors in software-based energy models and by workload variability. External validity is limited because evaluation was conducted on a single experimental environment. Construct validity depends on the selected sustainability metrics and Sustainability Health Score. Conclusion validity is constrained by the available sample sizes for several experiments; therefore, the reported findings should be interpreted as evidence of feasibility where broader experimental validation has not yet been performed.",
+    "style": [],
+    "image_rids": []
+  },
+  {
+    "block": 280,
+    "tag": "p",
+    "text": "Data Availability",
+    "style": [
+      "Heading1"
+    ],
+    "image_rids": []
+  },
+  {
+    "block": 281,
+    "tag": "p",
+    "text": "The Bitbrains dataset used in this study is publicly available. Project source code, configuration files, trained models, and experimental artifacts can be made available upon reasonable request or through a public repository in the final publication.",
+    "style": [],
+    "image_rids": []
+  }
+]

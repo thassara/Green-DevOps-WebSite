@@ -1,0 +1,224 @@
+=== SLIDE 1 (ppt/slides/slide1.xml) ===
+8/17/2026
+Green DevOps - Energy efficient 
+CI/CD Pipieline 
+R26-SE-027
+Sri Lanka Institute of Information Technology 
+IT4010 – Progress Presentation 2 (PP2)
+MEDIA: ppt/media/image1.jpeg, ppt/media/image2.png, ppt/media/image3.png
+NOTES: 
+
+=== SLIDE 2 (ppt/slides/slide2.xml) ===
+R26-SE-027
+Agenda
+8/17/2026
+1) Problem & motivation
+2) Solution overview
+3) System Architecture & Integration
+4) Commercialization
+5) Demo
+MEDIA: ppt/media/image4.png, ppt/media/image5.svg, ppt/media/image6.png
+NOTES: 
+
+=== SLIDE 3 (ppt/slides/slide3.xml) ===
+CURRENT PROGRESS AND NEXT PHASES
+R26-SE-027
+5/7/2026
+MEDIA: ppt/media/image4.png, ppt/media/image5.svg, ppt/media/image6.png, ppt/media/image7.png
+NOTES: 
+
+=== SLIDE 4 (ppt/slides/slide4.xml) ===
+
+MEDIA: ppt/media/image8.jpeg, ppt/media/VAHSdAbh_24.mp4, ppt/media/VAHSdAbh_24.mp4
+NOTES: 
+
+=== SLIDE 5 (ppt/slides/slide5.xml) ===
+PROGRESS PRESENTATION 1 - COMMENTS
+R26-SE-027
+5/7/2026
+MEDIA: ppt/media/image4.png, ppt/media/image5.svg, ppt/media/image9.png, ppt/media/image10.svg, ppt/media/image11.png, ppt/media/image12.svg, ppt/media/image6.png, ppt/media/image13.png
+NOTES: 
+
+=== SLIDE 6 (ppt/slides/slide6.xml) ===
+R26-SE-027
+The Real-World Problem 
+Rapid growth of cloud-native systems and CI/CD pipelines creates green debt.
+DevOps pipelines prioritize speed over energy efficiency.
+Small code changes trigger full builds and tests.
+This causes resource waste, high energy usage, and increased carbon emissions. 
+DevOps/Platform engineers 
+Software developers
+Site Reliability Engineers (SREs) 
+Engineering Managers
+Primary Stakeholders
+ICT sector produces ~2–4% 
+of global CO₂ emissions.
+Carbon Footprint
+About 90% CPU time wasted during full rebuilds.
+Resource Waste
+ 35% 
+annual increase in cloud costs.
+Economic Impact
+Our Solution Provides carbon-aware automation across every DevOps stage
+8/17/2026
+MEDIA: ppt/media/image4.png, ppt/media/image5.svg, ppt/media/image6.png
+NOTES: 
+
+=== SLIDE 7 (ppt/slides/slide7.xml) ===
+RESEARCH GAP → OUR OBJECTIVE
+R26-SE-027
+8/16/2026
+Existing approaches optimize Green DevOps stages independently.
+Disconnected carbon-aware decisions
+RESEARCH GAP
+Build one integrated Green DevOps framework that enables carbon-aware decision-making across all four stages.
+OUR OBJECTIVE
+⚡ Delivery Velocity  📈 Performance  ✓ SLA Compliance
+Sustainability without sacrificing operational requirements
+MEDIA: ppt/media/image4.png, ppt/media/image5.svg, ppt/media/image9.png, ppt/media/image10.svg, ppt/media/image11.png, ppt/media/image12.svg, ppt/media/image6.png
+NOTES: 
+
+=== SLIDE 8 (ppt/slides/slide8.xml) ===
+An integrated Green DevOps framework embedding carbon-aware decisions across Release, Deploy, Operate & Monitor
+R26-SE-027
+                        Carbon-aware CI/CD
+Release
+                         AI deployment scheduling
+Deploy
+                      predictive autoscaling
+Operate
+                        Anomaly detection & Sustainability Health Score
+Monitor
+8/16/2026
+SOLUTION OVERVIEW
+       reliability & SLA compliance
+       delivery performance
+       environmental sustainability
+Non Functional Focus
+MEDIA: ppt/media/image4.png, ppt/media/image5.svg, ppt/media/image9.png, ppt/media/image10.svg, ppt/media/image11.png, ppt/media/image12.svg, ppt/media/image6.png
+NOTES: 
+
+=== SLIDE 9 (ppt/slides/slide9.xml) ===
+
+MEDIA: ppt/media/image14.png
+NOTES: 
+
+=== SLIDE 10 (ppt/slides/slide10.xml) ===
+R26-SE-027
+High-level Architecture Diagram
+8/18/2026
+MEDIA: ppt/media/image11.png, ppt/media/image12.svg, ppt/media/image6.png, ppt/media/image15.png
+NOTES: 
+
+=== SLIDE 11 (ppt/slides/slide11.xml) ===
+Modular subscriptions, complete-suite deployment and lifecycle support
+1  PRODUCT OFFERING
+RELEASE
+Carbon-aware release scheduling
+Lower-carbon release windows • release recommendations
+DEPLOY
+Energy-efficient deployment
+Optimized deployment strategy • resource-aware rollout
+OPERATE
+Predictive Kubernetes operations
+LSTM prediction • carbon estimation • job priority • scaling decisions
+MONITOR
+Sustainability analytics dashboard
+Carbon, energy, cost and SLA visibility • requires connected CI/CD or infrastructure data
+Individual module • selected bundle • complete 4-component product
+2  SUBSCRIPTION & PRICING MODEL
+FEATURE
+STARTER
+USD 49/mo
+PROFESSIONAL
+USD 129/mo
+ENTERPRISE
+USD 249/mo*
+Components
+Any 1
+Any 2–3
+All 4
+Dashboards
+Core module view
+Advanced cross-module
+Executive + technical
+Integration
+Setup guide
+Assisted integration
+End-to-end integration
+Maintenance
+Updates only
+Updates + health checks
+Managed maintenance
+Support
+Business hours
+Priority support
+24/7 support
+Best for
+Pilot / small team
+Growing DevOps team
+Enterprise rollout
+*Indicative academic pricing; final quotation depends on users, clusters, integrations, data volume and support scope.
+3  COMMERCIAL DELIVERY
+4  ADOPTION PLAN
+5  CUSTOMER IMPACT
+✓ Initial assessment & product configuration
+✓ CI/CD, Kubernetes and monitoring integration
+✓ Training, updates and ongoing maintenance
+✓ SLA-based support, including 24/7 enterprise coverage
+1. Pilot one module with one team
+2. Validate carbon, cloud cost and SLA results
+3. Integrate selected modules
+4. Roll out the complete suite across teams
+Lower cloud cost
+Reduced carbon emissions
+Efficient infrastructure use
+Reliable and sustainable delivery
+TARGET MARKET  •  Software companies  •  DevOps/platform teams  •  SRE teams  •  Kubernetes and CI/CD users
+R26-SE-027
+R26-SE-027
+8/16/2026
+GREEN DEVOPS AS A COMMERCIAL PRODUCT
+MEDIA: ppt/media/image16.jpeg, ppt/media/image9.png, ppt/media/image10.svg, ppt/media/image4.png, ppt/media/image5.svg, ppt/media/image11.png, ppt/media/image12.svg, ppt/media/image6.png
+NOTES: 
+
+=== SLIDE 12 (ppt/slides/slide12.xml) ===
+THANK YOU
+R26-SE-027
+Official Docs 
+MEDIA: ppt/media/image4.png, ppt/media/image5.svg, ppt/media/image11.png, ppt/media/image12.svg, ppt/media/image6.png, ppt/media/image16.jpeg
+NOTES: 
+
+=== COMPLETE EMBEDDED TABLE TEXT (slides 3 and 5) ===
+[
+  {
+    "object": "oleObject1.bin",
+    "sheets": [
+      {
+        "name": "xl/worksheets/sheet1.xml",
+        "rows": [
+          "A1:  | B1: PP1 | C1: PP2 | D1: Final",
+          "A2: Release\nComponent | B2: Change Impact Analyzer,\nSelective Build Execution,\nSelective Test Execution done. | C2:   Implement the carbon\nemission aware AI model for \nbuild scheduling | D2: Associate jenkins libraries to \ngenerallize the system",
+          "A3: Deploy \nComponent | B3: The energy profiler & \ndeployment comparator \nImplemented | C3: Implement/train an AI \ndecision engine and integration \nwith the release component  | D3: Fine tune the profiler and AI \ndecision engine ",
+          "A4: Operation\nComponent | B4: Future workload prediction \n& \npod scaling engin implemented | C4: Job prioritization and finish \ntesting | D4: Fine-tune and integrate whole \nsystem",
+          "A5: Monitor\nComponent | B5: Monitoring framework,\nStatistical anomaly detection,\nIsolation Forest prototype | C5: Finalized isolation forest \nanomaly models | D5: Implement ML-based\nSustainability Analyst Assistant\n"
+        ]
+      }
+    ]
+  },
+  {
+    "object": "oleObject2.bin",
+    "sheets": [
+      {
+        "name": "xl/worksheets/sheet1.xml",
+        "rows": [
+          "A1: Student ID | B1: Panel Comment | C1: How We Addressed",
+          "A2: IT22110084                             \n(Release Component) | B2: No specific comments | C2: Kept the implementation unchanged",
+          "A3: IT22149930                \n(Deployment Component) | B3: No specific comments | C3: Kept the implementation unchanged",
+          "A4: IT22281432                                 \n(Operations Component) | B4: No specific comments | C4: Kept the implementation unchanged",
+          "A5: IT22189776\n(Monitor Component) | B5: No specific comments | C5: Kept the implementation unchanged"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "slide": 1,
+    "part": "ppt/slides/slide1.xml",
+    "text": [
+      "8/17/2026",
+      "Green DevOps - Energy efficient ",
+      "CI/CD Pipieline ",
+      "R26-SE-027",
+      "Sri Lanka Institute of Information Technology ",
+      "IT4010 \u2013 Progress Presentation 2 (PP2)"
+    ],
+    "media": [
+      "ppt/media/image1.jpeg",
+      "ppt/media/image2.png",
+      "ppt/media/image3.png"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 2,
+    "part": "ppt/slides/slide2.xml",
+    "text": [
+      "R26-SE-027",
+      "Agenda",
+      "8/17/2026",
+      "1) Problem & motivation",
+      "2) Solution overview",
+      "3) System Architecture & Integration",
+      "4) Commercialization",
+      "5) Demo"
+    ],
+    "media": [
+      "ppt/media/image4.png",
+      "ppt/media/image5.svg",
+      "ppt/media/image6.png"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 3,
+    "part": "ppt/slides/slide3.xml",
+    "text": [
+      "CURRENT PROGRESS AND NEXT PHASES",
+      "R26-SE-027",
+      "5/7/2026"
+    ],
+    "media": [
+      "ppt/media/image4.png",
+      "ppt/media/image5.svg",
+      "ppt/media/image6.png",
+      "ppt/media/image7.png"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 4,
+    "part": "ppt/slides/slide4.xml",
+    "text": [],
+    "media": [
+      "ppt/media/image8.jpeg",
+      "ppt/media/VAHSdAbh_24.mp4",
+      "ppt/media/VAHSdAbh_24.mp4"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 5,
+    "part": "ppt/slides/slide5.xml",
+    "text": [
+      "PROGRESS PRESENTATION 1 - COMMENTS",
+      "R26-SE-027",
+      "5/7/2026"
+    ],
+    "media": [
+      "ppt/media/image4.png",
+      "ppt/media/image5.svg",
+      "ppt/media/image9.png",
+      "ppt/media/image10.svg",
+      "ppt/media/image11.png",
+      "ppt/media/image12.svg",
+      "ppt/media/image6.png",
+      "ppt/media/image13.png"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 6,
+    "part": "ppt/slides/slide6.xml",
+    "text": [
+      "R26-SE-027",
+      "The Real-World Problem ",
+      "Rapid growth of cloud-native systems and CI/CD pipelines creates green debt.",
+      "DevOps pipelines prioritize speed over energy efficiency.",
+      "Small code changes trigger full builds and tests.",
+      "This causes resource waste, high energy usage, and increased carbon emissions. ",
+      "DevOps/Platform engineers ",
+      "Software developers",
+      "Site Reliability Engineers (SREs) ",
+      "Engineering Managers",
+      "Primary Stakeholders",
+      "ICT sector produces ~2\u20134% ",
+      "of global CO\u2082 emissions.",
+      "Carbon Footprint",
+      "About 90% CPU time wasted during full rebuilds.",
+      "Resource Waste",
+      " 35% ",
+      "annual increase in cloud costs.",
+      "Economic Impact",
+      "Our Solution Provides carbon-aware automation across every DevOps stage",
+      "8/17/2026"
+    ],
+    "media": [
+      "ppt/media/image4.png",
+      "ppt/media/image5.svg",
+      "ppt/media/image6.png"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 7,
+    "part": "ppt/slides/slide7.xml",
+    "text": [
+      "RESEARCH GAP \u2192 OUR OBJECTIVE",
+      "R26-SE-027",
+      "8/16/2026",
+      "Existing approaches optimize Green DevOps stages independently.",
+      "Disconnected carbon-aware decisions",
+      "RESEARCH GAP",
+      "Build one integrated Green DevOps framework that enables carbon-aware decision-making across all four stages.",
+      "OUR OBJECTIVE",
+      "\u26a1 Delivery Velocity  \ud83d\udcc8 Performance  \u2713 SLA Compliance",
+      "Sustainability without sacrificing operational requirements"
+    ],
+    "media": [
+      "ppt/media/image4.png",
+      "ppt/media/image5.svg",
+      "ppt/media/image9.png",
+      "ppt/media/image10.svg",
+      "ppt/media/image11.png",
+      "ppt/media/image12.svg",
+      "ppt/media/image6.png"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 8,
+    "part": "ppt/slides/slide8.xml",
+    "text": [
+      "An integrated Green DevOps framework embedding carbon-aware decisions across Release, Deploy, Operate & Monitor",
+      "R26-SE-027",
+      "                        Carbon-aware CI/CD",
+      "Release",
+      "                         AI deployment scheduling",
+      "Deploy",
+      "                      predictive autoscaling",
+      "Operate",
+      "                        Anomaly detection & Sustainability Health Score",
+      "Monitor",
+      "8/16/2026",
+      "SOLUTION OVERVIEW",
+      "       reliability & SLA compliance",
+      "       delivery performance",
+      "       environmental sustainability",
+      "Non Functional Focus"
+    ],
+    "media": [
+      "ppt/media/image4.png",
+      "ppt/media/image5.svg",
+      "ppt/media/image9.png",
+      "ppt/media/image10.svg",
+      "ppt/media/image11.png",
+      "ppt/media/image12.svg",
+      "ppt/media/image6.png"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 9,
+    "part": "ppt/slides/slide9.xml",
+    "text": [],
+    "media": [
+      "ppt/media/image14.png"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 10,
+    "part": "ppt/slides/slide10.xml",
+    "text": [
+      "R26-SE-027",
+      "High-level Architecture Diagram",
+      "8/18/2026"
+    ],
+    "media": [
+      "ppt/media/image11.png",
+      "ppt/media/image12.svg",
+      "ppt/media/image6.png",
+      "ppt/media/image15.png"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 11,
+    "part": "ppt/slides/slide11.xml",
+    "text": [
+      "Modular subscriptions, complete-suite deployment and lifecycle support",
+      "1  PRODUCT OFFERING",
+      "RELEASE",
+      "Carbon-aware release scheduling",
+      "Lower-carbon release windows \u2022 release recommendations",
+      "DEPLOY",
+      "Energy-efficient deployment",
+      "Optimized deployment strategy \u2022 resource-aware rollout",
+      "OPERATE",
+      "Predictive Kubernetes operations",
+      "LSTM prediction \u2022 carbon estimation \u2022 job priority \u2022 scaling decisions",
+      "MONITOR",
+      "Sustainability analytics dashboard",
+      "Carbon, energy, cost and SLA visibility \u2022 requires connected CI/CD or infrastructure data",
+      "Individual module \u2022 selected bundle \u2022 complete 4-component product",
+      "2  SUBSCRIPTION & PRICING MODEL",
+      "FEATURE",
+      "STARTER",
+      "USD 49/mo",
+      "PROFESSIONAL",
+      "USD 129/mo",
+      "ENTERPRISE",
+      "USD 249/mo*",
+      "Components",
+      "Any 1",
+      "Any 2\u20133",
+      "All 4",
+      "Dashboards",
+      "Core module view",
+      "Advanced cross-module",
+      "Executive + technical",
+      "Integration",
+      "Setup guide",
+      "Assisted integration",
+      "End-to-end integration",
+      "Maintenance",
+      "Updates only",
+      "Updates + health checks",
+      "Managed maintenance",
+      "Support",
+      "Business hours",
+      "Priority support",
+      "24/7 support",
+      "Best for",
+      "Pilot / small team",
+      "Growing DevOps team",
+      "Enterprise rollout",
+      "*Indicative academic pricing; final quotation depends on users, clusters, integrations, data volume and support scope.",
+      "3  COMMERCIAL DELIVERY",
+      "4  ADOPTION PLAN",
+      "5  CUSTOMER IMPACT",
+      "\u2713 Initial assessment & product configuration",
+      "\u2713 CI/CD, Kubernetes and monitoring integration",
+      "\u2713 Training, updates and ongoing maintenance",
+      "\u2713 SLA-based support, including 24/7 enterprise coverage",
+      "1. Pilot one module with one team",
+      "2. Validate carbon, cloud cost and SLA results",
+      "3. Integrate selected modules",
+      "4. Roll out the complete suite across teams",
+      "Lower cloud cost",
+      "Reduced carbon emissions",
+      "Efficient infrastructure use",
+      "Reliable and sustainable delivery",
+      "TARGET MARKET  \u2022  Software companies  \u2022  DevOps/platform teams  \u2022  SRE teams  \u2022  Kubernetes and CI/CD users",
+      "R26-SE-027",
+      "R26-SE-027",
+      "8/16/2026",
+      "GREEN DEVOPS AS A COMMERCIAL PRODUCT"
+    ],
+    "media": [
+      "ppt/media/image16.jpeg",
+      "ppt/media/image9.png",
+      "ppt/media/image10.svg",
+      "ppt/media/image4.png",
+      "ppt/media/image5.svg",
+      "ppt/media/image11.png",
+      "ppt/media/image12.svg",
+      "ppt/media/image6.png"
+    ],
+    "notes": []
+  },
+  {
+    "slide": 12,
+    "part": "ppt/slides/slide12.xml",
+    "text": [
+      "THANK YOU",
+      "R26-SE-027",
+      "Official Docs "
+    ],
+    "media": [
+      "ppt/media/image4.png",
+      "ppt/media/image5.svg",
+      "ppt/media/image11.png",
+      "ppt/media/image12.svg",
+      "ppt/media/image6.png",
+      "ppt/media/image16.jpeg"
+    ],
+    "notes": []
+  }
+]

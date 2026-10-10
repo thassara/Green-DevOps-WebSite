@@ -1,0 +1,32 @@
+[
+  {
+    "object": "oleObject1.bin",
+    "sheets": [
+      {
+        "name": "xl/worksheets/sheet1.xml",
+        "rows": [
+          "A1:  | B1: PP1 | C1: PP2 | D1: Final",
+          "A2: Release\nComponent | B2: Change Impact Analyzer,\nSelective Build Execution,\nSelective Test Execution done. | C2:   Implement the carbon\nemission aware AI model for \nbuild scheduling | D2: Associate jenkins libraries to \ngenerallize the system",
+          "A3: Deploy \nComponent | B3: The energy profiler & \ndeployment comparator \nImplemented | C3: Implement/train an AI \ndecision engine and integration \nwith the release component  | D3: Fine tune the profiler and AI \ndecision engine ",
+          "A4: Operation\nComponent | B4: Future workload prediction \n& \npod scaling engin implemented | C4: Job prioritization and finish \ntesting | D4: Fine-tune and integrate whole \nsystem",
+          "A5: Monitor\nComponent | B5: Monitoring framework,\nStatistical anomaly detection,\nIsolation Forest prototype | C5: Finalized isolation forest \nanomaly models | D5: Implement ML-based\nSustainability Analyst Assistant\n"
+        ]
+      }
+    ]
+  },
+  {
+    "object": "oleObject2.bin",
+    "sheets": [
+      {
+        "name": "xl/worksheets/sheet1.xml",
+        "rows": [
+          "A1: Student ID | B1: Panel Comment | C1: How We Addressed",
+          "A2: IT22110084                             \n(Release Component) | B2: No specific comments | C2: Kept the implementation unchanged",
+          "A3: IT22149930                \n(Deployment Component) | B3: No specific comments | C3: Kept the implementation unchanged",
+          "A4: IT22281432                                 \n(Operations Component) | B4: No specific comments | C4: Kept the implementation unchanged",
+          "A5: IT22189776\n(Monitor Component) | B5: No specific comments | C5: Kept the implementation unchanged"
+        ]
+      }
+    ]
+  }
+]

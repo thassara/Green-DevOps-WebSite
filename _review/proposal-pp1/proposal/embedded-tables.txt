@@ -1,0 +1,53 @@
+ppt/embeddings/oleObject1.bin
+A1: Aspect | B1: Existing Systems / Tools | C1: Limitation | D1: Proposed Green DevOps Framework
+A2: Carbon Monitoring | B2: Cloud Carbon Footprint, Green Software Foundation SCI, AWS Customer Carbon Footprint Tool | C2: Measure carbon emissions mainly at cloud infrastructure level, not CI/CD pipeline level | D2: Provides pipeline-level monitoring for CI/CD activities
+A3: Carbon-Aware Scheduling | B3: Carbon Aware SDK (Microsoft), ElectricityMaps-based schedulers | C3: Optimize when workloads run, but do not optimize the CI/CD pipeline workflow itself | D3: Uses carbon data to support carbon-aware scheduling of builds and deployments
+A4: Resource Scaling | B4: Kubernetes Horizontal Pod Autoscaler (HPA) | C4: Scaling decisions based only on CPU and memory, not energy or carbon emissions | D4: Uses AI-driven workload prediction and carbon-aware scaling decisions
+A5: Pipeline Optimization | B5: Traditional CI/CD tools such as Jenkins, GitHub Actions, GitLab CI/CD | C5: Execute full builds and full test suites even for small code changes | D5: Uses change impact analysis, artifact reuse, and incremental builds
+A6: Decision Intelligence | B6: Mostly rule-based automation in existing DevOps pipelines | C6: Cannot predict workload trends or sustainability impact | D6: Uses AI models (XGBoost and LSTM) for predictive optimization
+A7: Optimization Scope | B7: Most tools optimize cost, speed, or infrastructure efficiency separately | C7: Lack integrated sustainability decision making | D7: Provides integrated optimization across release, deployment, operation, and monitoring stages
+
+ppt/embeddings/oleObject2.bin
+A1: Step | B1: Description
+A2: Data Collection | B2: Collect Kubernetes metrics (CPU, memory, request rate)
+A3: Data Preprocessing | B3: Clean and normalize monitoring data
+A4: AI Workload Prediction | B4: Forecast workload using LSTM model
+A5: Carbon Optimization | B5: Estimate energy usage and carbon emissions
+A6: Job Prioritization | B6: Delay low-priority background tasks
+A7: Scaling Decision | B7: Choose the most energy-efficient scaling strategy
+
+ppt/embeddings/oleObject3.bin
+A1: Category | B1: Description | C1: Estimated Cost (LKR)
+A2: Development Cost | B2: AI model development, system architecture, software implementation | C2: 1200000.0
+A3: Infrastructure & Hardware | B3: Cloud clusters, prototype hardware (Raspberry Pi, sensors) | C3: 500000.0
+A4: Maintenance & Marketing | B4: System maintenance, promotion, deployment support | C4: 750000.0
+A5: Total Launch Cost | B5:  | C5: 2,450,000 LKR
+
+ppt/embeddings/oleObject4.bin
+A1: WBS ID | B1: Task | C1: Description | D1: Start Month | E1: End Month
+A2: 1.0 | B2: Research Planning | C2: Initial planning and understanding of Green DevOps concepts | D2: 45992.0 | E2: 46023.0
+A3: 1.1 | B3: Topic Selection | C3: Identify research topic related to Green DevOps and energy efficient CI/CD | D3: 45992.0 | E3: 45992.0
+A4: 1.2 | B4: Literature Review | C4: Review existing research on DevOps energy optimization, carbon-aware scheduling and workload prediction | D4: 46023.0 | E4: 46054.0
+A5: 1.3 | B5: Research Gap Identification | C5: Identify limitations in existing systems and define research problem | D5: 46023.0 | E5: 46054.0
+A6: 2.0 | B6: System Design | C6: Design the architecture for the proposed Green DevOps framework | D6: 46054.0 | E6: 46082.0
+A7: 2.1 | B7: Architecture Design | C7: Design high-level system architecture and component interaction | D7: 46054.0 | E7: 46082.0
+A8: 2.2 | B8: Proposal Writing | C8: Prepare research proposal document | D8: 46054.0 | E8: 46082.0
+A9: 2.3 | B9: Proposal Presentation | C9: Submit proposal and present to evaluation panel | D9: 46082.0 | E9: 46082.0
+A10: 3.0 | B10: Data Preparation | C10: Collect and prepare operational data for AI models | D10: 46082.0 | E10: 46113.0
+A11: 3.1 | B11: Dataset Collection | C11: Collect system metrics such as CPU, memory, request rate and workload logs | D11: 46082.0 | E11: 46113.0
+A12: 4.0 | B12: AI Model Development | C12: Develop workload prediction model using AI | D12: 46113.0 | E12: 46174.0
+A13: 4.1 | B13: Prediction Engine Development | C13: Implement AI workload prediction engine using LSTM | D13: 46113.0 | E13: 46143.0
+A14: 4.2 | B14: Model Training | C14: Train and improve the AI model using historical workload data | D14: 46174.0 | E14: 46204.0
+A15: 5.0 | B15: Optimization Module Development | C15: Develop modules to reduce carbon emissions in CI/CD pipelines | D15: 46204.0 | E15: 46235.0
+A16: 5.1 | B16: Carbon Optimization Engine | C16: Estimate energy usage and carbon emission for scaling decisions | D16: 46204.0 | E16: 46235.0
+A17: 5.2 | B17: Job Priority Scheduling | C17: Classify CI/CD jobs based on priority and optimize scheduling | D17: 46204.0 | E17: 46235.0
+A18: 6.0 | B18: System Implementation | C18: Integrate developed modules with cloud infrastructure | D18: 46235.0 | E18: 46266.0
+A19: 6.1 | B19: AI Model Testing | C19: Test prediction accuracy and performance | D19: 46235.0 | E19: 46266.0
+A20: 6.2 | B20: System Integration | C20: Integrate prediction engine, carbon optimizer and scheduler | D20: 46235.0 | E20: 46266.0
+A21: 7.0 | B21: Evaluation | C21: Evaluate system performance and optimization results | D21: 46266.0 | E21: 46296.0
+A22: 7.1 | B22: System Testing | C22: Perform functional testing and performance evaluation | D22: 46266.0 | E22: 46296.0
+A23: 8.0 | B23: Final Deliverables | C23: Final documentation and presentation | D23: 46296.0 | E23: 46357.0
+A24: 8.1 | B24: Final Report Writing | C24: Prepare final thesis and documentation | D24: 46296.0 | E24: 46327.0
+A25: 8.2 | B25: Final Presentation | C25: Present research results and system demonstration | D25: 46296.0 | E25: 46327.0
+A26: 8.3 | B26: Research Paper Submission | C26: Submit research paper to conference/journal | D26: 46327.0 | E26: 46327.0
+A27: 8.4 | B27: Publication Evidence Submission | C27: Submit proof of publication | D27: 46357.0 | E27: 46357.0

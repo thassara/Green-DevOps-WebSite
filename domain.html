@@ -182,7 +182,9 @@
           </details>
           <details class="research-detail">
             <summary>Deployment Stage</summary>
-            <p><strong>Problem:</strong> deployment timing and strategy choices may ignore carbon intensity. <strong>Approach:</strong> telemetry-based energy estimation, real-time grid carbon intensity, AI-assisted deployment scheduling and ReAct-based strategy reasoning across Recreate, Rolling and Canary. <strong>Evaluation:</strong> included in integrated implementation and monitoring records, with no standalone numerical deployment benchmark in the final Results section. <strong>Integration:</strong> sends deployment profiles and carbon estimates to Operation.</p>
+            <p><strong>Problem:</strong> deployment timing and strategy choices may ignore carbon intensity. <strong>Approach:</strong> telemetry-based energy estimation, real-time grid carbon intensity, AI-assisted deployment scheduling and ReAct-based strategy reasoning across Recreate, Rolling and Canary. A five-percent A/B route sends a small random sample through the deterministic fallback so the LLM path can be compared with rules-based decisions. The agent also queries a rolling 30-day, hour-of-week strategy win-rate table when at least three relevant historical deployments are available.</p>
+            <p><strong>Validation:</strong> the deployment decision log contained 242 decisions and 114 deployment outcomes; 87 LLM-path decisions could be matched to an outcome. Observed success rates were 100.0% (3/3) at confidence 0.50–0.69, 100.0% (18/18) at 0.70–0.84, 94.6% (35/37) at 0.85–0.94 and 100.0% (29/29) at 0.95–1.00. The calibration diagnostic therefore reported that confidence did not predict success in this sample; the uneven bucket sizes and small low-confidence group should be considered when interpreting it.</p>
+            <p><strong>Reason-quality validation:</strong> an LLM-as-judge pass scored 24 generated hints: 23 (95.8%) were factually valid (score 4 or higher), while one received score 1. <strong>Scope:</strong> these are implementation validation diagnostics, not a standalone controlled benchmark of deployment emissions, delivery time or SLA outcomes. <strong>Integration:</strong> sends deployment profiles and carbon estimates to Operation.</p>
           </details>
           <details class="research-detail">
             <summary>Operations Stage</summary>
@@ -214,7 +216,7 @@
             <li><strong>Release:</strong> LightGBM evaluated with five-fold time-series cross-validation; selective execution tested through ten paired Jenkins optimized/unoptimized runs on identical commits.</li>
             <li><strong>Operation:</strong> LSTM evaluated on unseen Bitbrains fastStorage workload traces.</li>
             <li><strong>Monitoring:</strong> sustainability baselines and anomaly detection evaluated using 21 Jenkins executions and 63 Build/Test/Deploy stage records.</li>
-            <li><strong>Deployment:</strong> final manuscript describes implementation and integration, but does not report a separate numerical deployment experiment.</li>
+            <li><strong>Deployment:</strong> implementation validation covered 242 decisions, 114 outcomes and 87 matched LLM-path decisions; confidence calibration and reason-quality diagnostics were added alongside a five-percent fallback A/B route and historical strategy win-rate lookup. This is not a standalone numerical deployment benchmark.</li>
           </ul>
         </section>
 
@@ -227,6 +229,8 @@
             <article class="card"><span class="metric">90.4%</span><h3>Selective test skip rate</h3><p>13 of 136 possible tests executed.</p></article>
             <article class="card"><span class="metric">0.946</span><h3>LSTM R2</h3><p>Workload prediction on unseen test data.</p></article>
             <article class="card"><span class="metric">8 + 6</span><h3>Anomaly flags</h3><p>8 statistical flags and 6 Isolation Forest flags. These are not validated accuracy scores.</p></article>
+            <article class="card"><span class="metric">95.8%</span><h3>Valid deployment hints</h3><p>23 of 24 LLM-generated hints scored at least 4/5 for factual validity.</p></article>
+            <article class="card"><span class="metric">87</span><h3>Matched deployment decisions</h3><p>LLM-path decisions joined to recorded deployment outcomes for confidence calibration.</p></article>
             <article class="card"><span class="metric">51%</span><h3>Prophet MAPE limitation</h3><p>The release forecasting layer needs refinement.</p></article>
           </div>
         </section>
